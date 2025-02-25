@@ -58,10 +58,7 @@ footer {
     grid-template-areas: "copyright copyright instagram telefono ";
     bottom: 0;
 }
-.footer-index {
-    position: absolute;
-    bottom: 0;
-}
+
 footer p {
     margin: 10px;
     font-size: 16px;
@@ -111,15 +108,25 @@ h2 {
     background-position: center;
     min-height: 100vh;
 }
+.bg-texto-index {
+    background-color:#2a3816;
+    opacity: 0.7;
+    width: 100%;
+    border-top-right-radius: 36px;
+    padding: 20px;
+}
+.texto-index p {
+    font-size: 100%;
+}
 .nature {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 .nature img {
-    height: 200px;
+    width: 50%;
 }
-
 
 /* Sobre Nosotros */
 
@@ -297,19 +304,11 @@ min-height: 100vh;
                 "copyright copyright instagram"
                 "copyright copyright telefono";
             justify-items: center;
-            
         }
         footer img {
             width: 10px;
             height: auto;
             display:flex ;
-        }
-        .nature {
-            width: 300px;
-            padding-top: 30px;
-            height: auto;
-            display: flex;
-            align-self: center;
         }
 
         .nav-item {
@@ -324,6 +323,36 @@ min-height: 100vh;
         .logo {
             width: 20px;
             height: auto;
+        }
+        .bg-texto-index {
+            background-color:#2a3816;
+            opacity: 0.7;
+            width: 100%;
+            border-top-right-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        .texto-index p {
+            font-size: 14px;
+        }
+        .texto-index h1 {
+            font-size: 20px;
+        }
+        .texto-index h2 {
+            font-size: 16px;
+        }
+        .nature {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-items: center;
+        }
+        .nature img {
+            width: 100%;
+            display: flex;
+            align-items: center;
         }
         /* Sobre nosotros */
         h1 {
@@ -433,9 +462,6 @@ min-height: 100vh;
             height: auto;
             display:flex ;
         }
-        .nature {
-            width: 350px;
-        }
         .nav-item {
             font-size: 14px;
             padding: 4px 0 ;
@@ -450,7 +476,36 @@ min-height: 100vh;
             width: 25px;
             height: auto;
         }
-
+        .bg-texto-index {
+            background-color:#2a3816;
+            opacity: 0.7;
+            width: 100%;
+            border-top-right-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        .texto-index p {
+            font-size: 16px;
+        }
+        .texto-index h1 {
+            font-size: 24px;
+        }
+        .texto-index h2 {
+            font-size: 20px;
+        }
+        .nature {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-items: center;
+        }
+        .nature img {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
     /* Sobre nosotros */
         h1 {
             font-size: 34px;
