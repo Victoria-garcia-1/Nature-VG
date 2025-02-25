@@ -17,6 +17,7 @@ body {
 }
 
 /* Navbar */
+
 .bg-nav-vic {
     background-color: #3D511F;
     opacity: 0.9;
@@ -29,6 +30,7 @@ body {
     font-size: 20px;
     padding: 10px 20px;
 }
+
 .nav-link {
     color: white;
 }
@@ -294,10 +296,12 @@ h2 {
 /* Media queries */
     /* Index */
     @media (max-width:450px) {
+
         footer p {
             font-size: 8px;
         }
         footer {
+            margin-top: auto;
             padding: 4px;
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(2,1fr);
@@ -309,7 +313,7 @@ h2 {
         footer img {
             width: 10px;
             height: auto;
-            display:flex ;
+            display:flex;
         }
 
         .nav-item {
