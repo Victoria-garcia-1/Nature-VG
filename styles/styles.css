@@ -237,12 +237,12 @@ h2 {
 
 /* Contacto */
 .fondo-contacto {
-background-image: url(../assets/imagenes/Fondo-contacto.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-min-height: 100vh;
+    background-image: url(../assets/imagenes/Fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
 }
 .formulario {
     display: flex;
