@@ -270,7 +270,15 @@ min-height: 100vh;
 }
 .btn-estilo {
     background-color: #BDC397;
+    border-color: #BDC397;
 }
+.btn-hover:hover {
+    opacity: 0.9;
+    background-color: #60763d;
+    border-color:#60763d;
+    transform: scale(1.05,1.05);
+} 
+
 /* Media queries */
     /* Index */
     @media (max-width:450px) {
