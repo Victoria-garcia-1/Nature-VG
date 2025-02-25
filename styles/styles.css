@@ -1,0 +1,485 @@
+
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+    font-family: "Raleway", serif;
+    font-size: 24px;
+    background-color:#48634e;
+    color: white;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.bg-nav-vic {
+    background-color: #3D511F;
+    opacity: 0.9;
+}
+.logo {
+    width: 35px;
+    height: auto;
+}
+.nav-item {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #C2E6C9;
+}
+.active-vic {
+    color:#7a9681;
+}
+.style-toggler {
+    border: none;
+    box-shadow: none;
+}
+.menu-svg-vic {
+    width: 24px;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3D511F;
+    opacity: 0.9;
+    width: 100%;
+    padding: 8px 30px 8px 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "copyright copyright instagram telefono ";
+    bottom: 0;
+}
+.footer-index {
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    margin: 10px;
+    font-size: 16px;
+}
+footer img {
+    margin: 10px;
+    width: 30px;
+    height: auto;
+}
+.instagram {
+    grid-area: instagram;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.telefono {
+    grid-area: telefono;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.copyright {
+    grid-area: copyright;
+    justify-content: start;
+}
+
+/* h1 y h2 */
+h1 {
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 64px;
+
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    text-align: start;
+    font-size: 36px;
+}
+
+/* Index */
+.fondo-menu {
+    background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+.nature {
+    width: 400px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Sobre Nosotros */
+
+.titulo-sobre-nosotros {
+    background-color: #BDC397;
+    margin-bottom: 0;
+}
+.historia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.historia img {
+    width: 50%;
+    height: auto;
+}
+.texto-historia {
+    padding: 10px;
+    margin: 20px;
+    align-self: center;
+}
+
+.mision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mision img {
+    width: 50%;
+    height: auto;
+}
+.texto-mision {
+    padding: 10px;
+    margin: 20px;
+    align-self: center;
+}
+
+/* Proyectos */
+.carrusel-estilo-vic {
+    width: 100%;
+    max-height: fit-content;
+}
+.h2-nuestros-proyectos {
+    display: flex;
+    justify-content: center;
+}
+.h2-parques {
+    padding: 20px 0;
+}
+.parque-cielo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+.parque-almas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+.img-planos {
+    width: 60%;
+    height: auto;
+}
+.img-renders {
+    width: 40%;
+    height: auto;
+}
+
+/* Servicios */
+.titulo-servicios {
+    background-color: #BDC397;
+    padding: 10px;
+}
+
+.diseño-de-espacios-verdes h2 {
+    margin: 20px;
+}
+.asesoramiento-mantenimiento h2 {
+    display: inline-block;
+}
+.asesoramiento-mantenimiento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 30px;
+    margin: 10px;
+}
+.mantenimiento img {
+    width: 100%;
+    height: auto;
+}
+.asesoramiento img {
+    width: 100%;
+    height: auto;
+}
+
+  
+
+
+
+/* Contacto */
+.fondo-contacto {
+background-image: url(../assets/imagenes/Fondo-contacto.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+min-height: 100vh;
+}
+.formulario {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 20px;
+}
+.titulo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estilo-input {
+    font-family: "Raleway", serif;
+    font-size: 12px;
+}
+.bg-form {
+    background-color: #3D511F;
+    opacity: 0.9;
+    padding: 20px;
+    margin: 40px;
+    width: 50%;
+    border-radius: 31px ;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.input-label {
+    padding: 10px;
+    font-size: 20px;
+}
+.submit-button {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.btn-estilo {
+    background-color: #BDC397;
+}
+/* Media queries */
+    /* Index */
+    @media (max-width:450px) {
+        footer p {
+            font-size: 8px;
+        }
+        footer {
+            padding: 4px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+                "copyright copyright instagram"
+                "copyright copyright telefono";
+            justify-items: center;
+            
+        }
+        footer img {
+            width: 10px;
+            height: auto;
+            display:flex ;
+        }
+        .nature {
+            width: 300px;
+            padding-top: 30px;
+            height: auto;
+            display: flex;
+            align-self: center;
+        }
+
+        .nav-item {
+            font-size: 12px;
+            padding: 4px 0 ;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .logo {
+            width: 20px;
+            height: auto;
+        }
+        /* Sobre nosotros */
+        h1 {
+            font-size: 26px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        .historia-mision {
+            display: grid;
+            padding: 10px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "historia" "mision";
+            gap: 30px;
+            align-self: center;
+        }
+        .historia-mision img {
+            position: relative;
+        }
+        .historia {
+            grid-area: historia;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 20px 0;
+        }
+        .texto-historia {
+            padding: 25px;
+            margin: 0;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-self: center;
+            position: absolute;
+        }
+        .historia img {
+            width: 100%;
+            height: 260px;
+            filter: brightness(0.6);
+        }
+        .mision {
+            grid-area: mision;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 10px 0;
+            align-self: center;
+        }
+        .mision img {
+            width: 100%;
+            height: 260px;
+            filter: brightness(0.6);
+        }
+        .texto-mision {
+            padding: 25px;
+            margin: 0;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-self: center;
+            position: absolute;
+        }
+    }
+    @media (min-width: 451px) and (max-width: 768px) {
+    /* Index */
+        footer p {
+            font-size: 12px;
+        }
+        footer {
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+                "copyright copyright instagram"
+                "copyright copyright telefono"
+            ;
+            justify-items: center;
+            
+        }
+        footer img {
+            width: 14px;
+            height: auto;
+            display:flex ;
+        }
+        .nature {
+            width: 350px;
+        }
+        .nav-item {
+            font-size: 14px;
+            padding: 4px 0 ;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            
+        }
+        .logo {
+            width: 25px;
+            height: auto;
+        }
+
+    /* Sobre nosotros */
+        h1 {
+            font-size: 34px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        .historia-mision {
+            display: grid;
+            padding: 10px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "historia" "mision";
+            gap: 30px;
+            align-self: center;
+        }
+        .historia-mision img {
+            position: relative;
+        }
+        .historia {
+            grid-area: historia;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 20px 0;
+        }
+        .texto-historia {
+            padding: 25px;
+            margin: 0;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-self: center;
+            position: absolute;
+        }
+        .historia img {
+            width: 100%;
+            height: 260px;
+            filter: brightness(0.6);
+        }
+        .mision {
+            grid-area: mision;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 10px 0;
+            align-self: center;
+        }
+        .mision img {
+            width: 100%;
+            height: 260px;
+            filter: brightness(0.6);
+        }
+        .texto-mision {
+            padding: 25px;
+            margin: 0;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-self: center;
+            position: absolute;
+            }
+        }
+
+    @media (max-width:450px) {
+     
+    }

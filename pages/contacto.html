@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nature Gardening</title>
+    <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS  -->
+        <link rel="stylesheet" href="../styles/styles.css">
+    <!-- Fuente -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fondo-contacto">
+        <!-- Menú de navegación -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-nav-vic ">
+                <div class="container-fluid">
+                  <img class="logo" src="../assets/iconos/Logo-rec.png" alt=""> 
+                  <button class="navbar-toggler style-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span><img class="menu-svg-vic" src="../assets/iconos/menudesplegable.svg" alt=""></span>
+                  </button>
+      
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Menú principal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sobre-nosotros.html">Sobre nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./servicio.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active-vic" aria-current="page" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+          <section class="formulario">
+            <h1 class="titulo-form">¡Contáctanos!</h1>
+            <!-- Formulario -->
+            <form class="bg-form">
+              <div class= input-label>
+                <label class="form-label">Nombre y apellido</label>
+                <input class="form-control estilo-input" placeholder="Nombre y apellido">
+              </div>
+              <div class= input-label>
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control estilo-input" id="inputEmail4" placeholder="correo.electrónico@email.com">
+              </div>
+              <div class= input-label>
+                <label class="form-label">Número de teléfono</label>
+                <input type="text" class="form-control estilo-input" placeholder="00-0000-0000">
+              </div>
+              <div  class= input-label>
+                <label for="inputpais" class="form-label">Pais</label>
+                <select id="inputpais" class="form-select estilo-input">
+                  <option selected>Argentina</option>
+                  <option>Bolivia</option>
+                  <option>Brasil</option>
+                  <option>Colombia</option>
+                  <option>Uruguay</option>
+                  <option>Paraguay</option>
+                  <option>Perú</option>
+                </select>
+              </div>
+              <div  class= input-label>
+                <label for="floatingTextarea">Mensaje</label>
+                <textarea class="form-control estilo-input" placeholder="Mensaje" id="floatingTextarea"></textarea>
+              </div>
+              <div class= submit-button>
+                <button type="submit" class="btn btn-primary btn-estilo">Enviar</button>
+              </div>
+            </form>
+          </section>
+        </main>
+
+        <footer> 
+            <p class="copyright">Copyright © 2025 página web diseñada por Victoria Garcia Benzrihen. Todos los derechos reservados.</p>
+            <div class="instagram">
+                <img class="instagram-logo" src="../assets/iconos/Instagram.png" alt="">
+                <p class="instagram-p">Nature.Gardening</p>
+            </div>
+            <div class="telefono">
+                <img class="telefono-logo" src="../assets/iconos/Phone.png" alt="">
+                <p class="telefono-p">00-0000-0000</p>
+            </div>
+        </footer>
+
+    </div> 
+
+    <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
