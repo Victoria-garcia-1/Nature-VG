@@ -11,7 +11,8 @@ body {
     font-size: 24px;
     background-color:#48634e;
     color: white;
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -56,7 +57,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-areas: "copyright copyright instagram telefono ";
-    bottom: 0;
+    margin-top: auto;
 }
 
 footer p {
@@ -437,10 +438,7 @@ h2 {
         .input-label {
             font-size: 14px;
         }
-        footer {
-            bottom: 0;
-            position: absolute;
-        }
+       
     }
     @media (min-width: 451px) and (max-width: 768px) {
     /* Index */
@@ -455,6 +453,7 @@ h2 {
                 "copyright copyright telefono"
             ;
             justify-items: center;
+
             
         }
         footer img {
@@ -589,10 +588,7 @@ h2 {
         .input-label {
             font-size: 16px;
         }
-        footer {
-            bottom: 0;
-            position: absolute;
-        }
+
     }
 
 
