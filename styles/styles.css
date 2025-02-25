@@ -392,7 +392,7 @@ min-height: 100vh;
         .formulario {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            align-items: center;
             justify-content: center;
             padding: 10px 30px;
         }
@@ -407,6 +407,10 @@ min-height: 100vh;
         }
         .input-label {
             font-size: 14px;
+        }
+        footer {
+            bottom: 0;
+            position: absolute;
         }
     }
     @media (min-width: 451px) and (max-width: 768px) {
@@ -514,9 +518,9 @@ min-height: 100vh;
         .formulario {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            align-self: center;
             justify-content: center;
-            padding: 10px 30px;
+            padding: 30px;
         }
         .bg-form {
             padding: 10px;
@@ -529,6 +533,10 @@ min-height: 100vh;
         }
         .input-label {
             font-size: 16px;
+        }
+        footer {
+            bottom: 0;
+            position: absolute;
         }
     }
 
