@@ -112,11 +112,14 @@ h2 {
     min-height: 100vh;
 }
 .nature {
-    width: 400px;
     display: flex;
-    justify-self: center;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
+.nature img {
+    height: 200px;
+}
+
 
 /* Sobre Nosotros */
 
@@ -385,6 +388,26 @@ min-height: 100vh;
             align-self: center;
             position: absolute;
         }
+        /* Contacto */
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            justify-content: center;
+            padding: 10px 30px;
+        }
+        .bg-form {
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            border-radius: 31px ;
+        }
+        .estilo-input {
+            font-size: 10px;
+        }
+        .input-label {
+            font-size: 14px;
+        }
     }
     @media (min-width: 451px) and (max-width: 768px) {
     /* Index */
@@ -486,7 +509,27 @@ min-height: 100vh;
             justify-self: center;
             align-self: center;
             position: absolute;
-            }
         }
+         /* Contacto */
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            justify-content: center;
+            padding: 10px 30px;
+        }
+        .bg-form {
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            border-radius: 31px ;
+        }
+        .estilo-input {
+            font-size: 12px;
+        }
+        .input-label {
+            font-size: 16px;
+        }
+    }
 
 
