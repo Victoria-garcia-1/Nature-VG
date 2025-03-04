@@ -86,7 +86,7 @@ footer img {
     justify-content: start;
 }
 
-/* h1 y h2 */
+/* h1 h2 h3*/
 h1 {
     font-family: "Abril Fatface", serif;
     text-align: center;
@@ -98,6 +98,16 @@ h2 {
     font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 36px;
+}
+h3 {
+    font-family: "Abril Fatface", serif;
+    text-align: start;
+    font-size: 26px;  
+}
+h4 {
+    font-family: "Abril Fatface", serif;
+    text-align: start;
+    font-size: 20px;  
 }
 
 /* Index */
@@ -161,6 +171,9 @@ h2 {
     padding: 30px;
     gap: 30px;
 }
+.img-inicio-proyectos img {
+    width: 45%;
+}
   
 .renders-texto-inicio {
     display: flex;
@@ -183,10 +196,14 @@ h2 {
     flex-direction: column;
     justify-content: space-evenly;
 }
+.servicios-inicio-texto p {
+    text-align: center;
+}
 .servicios-inicio-texto {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: absolute;
 }
 .servicios-inicio img {
@@ -214,12 +231,16 @@ h2 {
 
 .titulo-sobre-nosotros {
     background-color: #BDC397;
-    margin-bottom: 0;
+    padding: 20px 0;
+    margin-bottom: 50px;
+
 }
 .historia {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+    padding: 20px;
+    background-color: #7a9681;
 }
 .historia img {
     width: 50%;
@@ -230,11 +251,44 @@ h2 {
     margin: 20px;
     align-self: center;
 }
-
+.organiza-nature {
+    padding: 40px 0px;
+}
+.roles-nature {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    gap: 20px;
+}
+.organiza-nature h2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.organiza-nature p {
+    font-size: px;
+}
+.analistas {
+    width: 100%;
+    background-color: #3b513f;
+    padding: 20px;
+}
+.diseñadores {
+    width: 100%;
+    background-color: #7a9681;
+    padding: 20px;
+}
+.jardineros {
+    width: 100%;
+    background-color: #3b513f;
+    padding: 20px;
+}
 .mision {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
+    background-color:  #3b513f;
 }
 .mision img {
     width: 50%;
@@ -245,7 +299,6 @@ h2 {
     margin: 20px;
     align-self: center;
 }
-
 
 /* Proyectos */
 .carrusel-estilo-vic {
