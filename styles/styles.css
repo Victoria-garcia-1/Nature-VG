@@ -116,7 +116,7 @@ h2 {
     opacity: 0.7;
     width: 100%;
     border-top-right-radius: 36px;
-    padding: 20px;
+    padding: 40px;
 }
 .texto-index p {
     font-size: 100%;
@@ -129,6 +129,56 @@ h2 {
 }
 .nature img {
     width: 50%;
+}
+.info-paginas h2  {
+    padding: 30px;
+    gap: 20px;
+}
+.info-paginas p  {
+    padding: 30px;
+    gap: 20px;
+}
+.nosotros-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b513f;
+    padding: 30px;
+    opacity: 0.9;
+}
+.nosotros-inicio img {
+    width: 50%;
+    border-style: solid;
+    border-color: #2a3816;
+}
+.proyectos-inicio {
+    background-color: #2a3816;
+    opacity: 0.9;
+    gap: 20px;
+    padding: 30px;
+}
+.img-inicio-proyectos {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+}
+  
+.renders-texto-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-inicio {
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.proyectos-inicio button {
+    display: flex;
+    justify-content: end;
 }
 
 /* Sobre Nosotros */
