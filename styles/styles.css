@@ -199,7 +199,7 @@ h2 {
     height: auto;
 }
 .img-renders {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -233,10 +233,6 @@ h2 {
     width: 100%;
     height: auto;
 }
-
-  
-
-
 
 /* Contacto */
 .fondo-contacto {
@@ -429,6 +425,39 @@ h2 {
             align-self: center;
             position: absolute;
         }
+        /* Proyectos */
+        .h2-parques {
+            padding: 10px 0px;
+            justify-content: start;
+        }
+       .parque-cielo {
+        flex-direction: column;
+        padding: 0;
+       }
+       .parque-almas {
+        flex-direction: column;
+        padding-bottom: 10px;
+        
+       }
+       .render-p {
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color:#3D511F;
+        padding: 10px;
+        border-radius: 10px;
+       }
+       .render-p p {
+        margin-bottom: 0;
+       }
+       .img-planos {
+        width: 100%;
+       }
+       .img-renders {
+        width: 50%;
+       }
         /* Contacto */
         .titulo-p-form {
             width: 100% ;
@@ -588,6 +617,45 @@ h2 {
             align-self: center;
             position: absolute;
         }
+        
+        /* Proyectos */
+        .h2-parques {
+            padding: 10px 0px;
+            justify-content: start;
+        }
+       .parque-cielo {
+        flex-direction: column;
+        padding: 0;
+       }
+       .parque-almas {
+        flex-direction: column;
+        padding-bottom: 10px;
+        
+       }
+       .render-p {
+        display: flex;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color:#3D511F;
+        padding: 15px;
+        border-radius: 20px;
+       }
+       .render-p p {
+        margin-bottom: 0;
+       }
+       .img-planos {
+        width: 100%;
+       }
+       .img-renders {
+        width: 50%;
+       }
+       .container {
+        max-width: 768px;
+        padding: 20px;
+       }
+
          /* Contacto */
          .titulo-p-form {
             width: 100% ;
