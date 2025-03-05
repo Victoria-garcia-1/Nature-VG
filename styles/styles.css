@@ -18,22 +18,19 @@ body {
 
 /* Navbar */
 
-.bg-nav-vic {
+.navbar {
     background-color: #3D511F;
 }
 .logo {
     width: 35px;
     height: auto;
 }
-.nav-item {
+.nav{
     font-size: 20px;
     padding: 10px 20px;
-}
-
-.nav-link {
     color: white;
 }
-.nav-link:hover {
+.nav:hover {
     color: #C2E6C9;
 }
 .active-vic {
