@@ -191,7 +191,7 @@ h4 {
     display: flex;
     justify-content: end;
 }
-.servicios-inicio {
+.servicios {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -206,7 +206,7 @@ h4 {
     justify-content: center;
     position: absolute;
 }
-.servicios-inicio img {
+.servicios img {
  width: 100%;
  filter: brightness(0.6);
 }
@@ -337,32 +337,42 @@ h4 {
 .titulo-servicios {
     background-color: #BDC397;
     padding: 10px;
+    margin: 0;
 }
-
-.diseño-de-espacios-verdes h2 {
-    margin: 20px;
-}
-.asesoramiento-mantenimiento h2 {
-    display: inline-block;
-}
-.asesoramiento-mantenimiento {
+.cards-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 35px 0;
+}
+.card {
+    background-color: #3b513f;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+.color-var {
+    background-color: #7a9f81;
+}
+.card img {
+    width: 50px;
+    padding-bottom: 15px;
+}
+.h2-servicios {
+    padding: 40px 20px;
+}
+.servicios-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     text-align: center;
-    gap: 40px;
-    padding: 30px;
-    margin: 10px;
 }
-.mantenimiento img {
-    width: 100%;
-    height: auto;
-}
-.asesoramiento img {
-    width: 100%;
-    height: auto;
-}
+
 
 /* Contacto */
 .fondo-contacto {
