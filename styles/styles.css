@@ -619,43 +619,15 @@ p {
             padding: 20px 0;
         }
     /* Proyectos */
-        .h2-parques {
-            padding: 10px 0px;
-            justify-content: start;
+        .proyectos-img-p {
+            flex-direction: column;
         }
-       .parque-cielo {
-        flex-direction: column;
-        padding: 0;
-       }
-       .parque-almas {
-        flex-direction: column;
-        padding-bottom: 10px;
-        
-       }
-       .render-p {
-        display: flex;
-        font-size: 16px;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        background-color:#3D511F;
-        padding: 15px;
-        border-radius: 20px;
-       }
-       .render-p p {
-        margin-bottom: 0;
-       }
-       .img-planos {
-        width: 100%;
-       }
-       .img-renders {
-        width: 50%;
-       }
-       .container {
-        max-width: 768px;
-        padding: 20px;
-       }
-
+        .parques img {
+            width: 100%;
+        }
+        .parques h2 {
+            padding: 20px;
+        }
          /* Contacto */
          .titulo-p-form {
             width: 100% ;
