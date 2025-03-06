@@ -166,7 +166,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    gap: 30px;
+    gap: 20px;
 }
 .img-inicio-proyectos img {
     width: 45%;
@@ -227,7 +227,6 @@ p {
     width: 1.5rem;
 }
 /* Sobre Nosotros */
-
 .titulo-sobre-nosotros {
     background-color: #BDC397;
     padding: 20px 0;
@@ -439,7 +438,6 @@ p {
         }
         footer img {
             width: 10px;
-            height: auto;
             display:flex;
         }
         .nav-item {
@@ -521,8 +519,8 @@ p {
             flex-direction: column;
             margin: 0;
         }
-        .servicios img {
-            padding: 20px 0;
+        .servicios-pag-img {
+            margin: 20px 0;
         }
         /* Contacto */
         .titulo-p-form {
@@ -562,49 +560,34 @@ p {
             grid-template-rows: repeat(2,1fr);
             grid-template-areas: 
                 "copyright copyright instagram"
-                "copyright copyright telefono"
-            ;
+                "copyright copyright telefono";
             justify-items: center;
-
-            
         }
         footer img {
             width: 14px;
-            height: auto;
             display:flex ;
-        }
-        .nav-item {
-            font-size: 14px;
-            padding: 4px 0 ;
         }
         .nav {
             display: flex;
             flex-direction: column;
-            gap: 2px;
-            
         }
-        .logo {
-            width: 25px;
-            height: auto;
+        h1 {
+            font-size: 34px;
+        }
+        h2 {
+            font-size: 26px;
+            padding: 10px 0;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        main {
+            font-size: 16px;
         }
         .bg-texto-index {
-            background-color:#2a3816;
-            opacity: 0.7;
-            width: 100%;
-            border-top-right-radius: 16px;
             padding: 20px;
             display: flex;
             flex-direction: column;
-            align-items: end;
-        }
-        .texto-index p {
-            font-size: 16px;
-        }
-        .texto-index h1 {
-            font-size: 24px;
-        }
-        .texto-index h2 {
-            font-size: 20px;
         }
         .nature {
             display: flex;
@@ -614,16 +597,17 @@ p {
         }
         .nature img {
             width: 100%;
-            display: flex;
-            align-items: center;
+        }
+        .info-paginas p {
+            padding: 10px
+        }
+        .nosotros-inicio {
+            flex-direction: column;
+        }
+        .nosotros-inicio img {
+            width: 100%;
         }
     /* Sobre nosotros */
-        h1 {
-            font-size: 46px;
-        }
-        h2 {
-            font-size: 24px;
-        }
         .historia-mision {
             display: grid;
             padding: 10px;
