@@ -278,35 +278,26 @@ h4 {
 .mision img {
     width: 50%;
 }
-
 /* Proyectos */
 .carrusel-estilo-vic {
     width: 100%;
     max-height: fit-content;
-}
-.h1-nuestros-proyectos {
-    display: flex;
-    justify-content: center;
 }
 .parques h2 {
     padding: 40px 0;
     display: flex;
     justify-content: center;
 }
-.plano-p {
+.proyectos-img-p {
     padding: 50px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     background-color: #3b513f;
+    margin: 20px 0;
 }
 .render-p {
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
     background-color: #7a9f81;
 }
 .img-planos {
