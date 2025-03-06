@@ -225,7 +225,6 @@ h4 {
     background-color: #BDC397;
     padding: 20px 0;
     margin-bottom: 50px;
-
 }
 .historia {
     display: flex;
@@ -233,15 +232,10 @@ h4 {
     justify-content: space-evenly;
     padding: 20px;
     background-color: #7a9681;
+    gap: 20px;
 }
 .historia img {
     width: 50%;
-    height: auto;
-}
-.texto-historia {
-    padding: 10px;
-    margin: 20px;
-    align-self: center;
 }
 .organiza-nature {
     padding: 40px 0px;
@@ -256,9 +250,6 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 30px;
-}
-.organiza-nature p {
-    font-size: px;
 }
 .analistas {
     width: 100%;
@@ -280,16 +271,12 @@ h4 {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px;
+    gap: 20px;
     background-color:  #3b513f;
+    margin-bottom: 40px;
 }
 .mision img {
     width: 50%;
-    height: auto;
-}
-.texto-mision {
-    padding: 10px;
-    margin: 20px;
-    align-self: center;
 }
 
 /* Proyectos */
