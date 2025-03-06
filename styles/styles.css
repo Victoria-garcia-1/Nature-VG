@@ -288,6 +288,7 @@ p {
 .carrusel-estilo-vic {
     width: 100%;
     max-height: fit-content;
+    padding-bottom: 20px;
 }
 .parques h2 {
     padding: 40px 0;
@@ -334,12 +335,10 @@ p {
     background-color: #7a9f81;
 }
 .card img {
-    width: 50px;
+    width: 12%;
     padding-bottom: 15px;
 }
-.h2-servicios {
-    padding: 40px 20px;
-}
+
 .servicios-texto {
     display: flex;
     flex-direction: column;
@@ -464,7 +463,7 @@ p {
         }
         h2 {
             font-size: 20px;
-            padding: 0;
+            padding: 10px 0;
         }
         h3 {
             font-size: 16px;
@@ -515,6 +514,14 @@ p {
         }
         .parques h2 {
             padding: 20px;
+        }
+        /* Servicios */
+        .cards-2 {
+            flex-direction: column;
+            margin: 0;
+        }
+        .servicios img {
+            padding: 20px 0;
         }
         /* Contacto */
         .titulo-p-form {
