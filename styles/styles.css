@@ -59,7 +59,6 @@ footer {
     grid-template-areas: "copyright copyright instagram telefono ";
     margin-top: auto;
 }
-
 footer p {
     margin: 10px;
     font-size: 16px;
@@ -91,9 +90,7 @@ h1 {
     font-family: "Abril Fatface", serif;
     text-align: center;
     font-size: 64px;
-
 }
-
 h2 {
     font-family: "Abril Fatface", serif;
     text-align: start;
@@ -125,9 +122,6 @@ h4 {
     width: 100%;
     border-top-right-radius: 36px;
     padding: 40px;
-}
-.texto-index p {
-    font-size: 100%;
 }
 .nature {
     display: flex;
@@ -174,7 +168,6 @@ h4 {
 .img-inicio-proyectos img {
     width: 45%;
 }
-  
 .renders-texto-inicio {
     display: flex;
     justify-content: center;
@@ -195,10 +188,9 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-.servicios-inicio-texto p {
     text-align: center;
 }
+
 .servicios-inicio-texto {
     display: flex;
     flex-direction: column;
