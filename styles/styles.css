@@ -342,8 +342,6 @@ h4 {
     position: absolute;
     text-align: center;
 }
-
-
 /* Contacto */
 .fondo-contacto {
     background-image: url(../assets/imagenes/Fondo-contacto.png);
@@ -359,9 +357,6 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 60% ;
-}
-.p-form {
-    width: 100%;
     text-align: center;
 }
 .formulario {
@@ -370,21 +365,13 @@ h4 {
     justify-content: space-around;
     padding: 20px;
 }
-
-.estilo-input {
-    font-family: "Raleway", serif;
-    font-size: 12px;
-}
 .bg-form {
     background-color: #3D511F;
     opacity: 0.9;
     padding: 20px;
     margin: 40px;
     width: 50%;
-    border-radius: 31px ;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+    border-radius: 31px;
 }
 .input-label {
     padding: 10px;
@@ -428,8 +415,6 @@ h4 {
 .texto-faq {
     padding: 20px;
 }
-
-
 /* Media queries */
     /* Index */
     @media (max-width:450px) {
