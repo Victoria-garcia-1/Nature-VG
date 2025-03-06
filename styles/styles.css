@@ -22,14 +22,13 @@ body {
     background-color: #3D511F;
 }
 .logo {
-    width: 35px;
+    width: 2rem;
     height: auto;
 }
 .nav-item {
-    font-size: 20px;
+    font-size: 1rem;
     padding: 10px 20px;
 }
-
 .nav-link {
     color: white;
 }
@@ -44,7 +43,7 @@ body {
     box-shadow: none;
 }
 .menu-svg-vic {
-    width: 24px;
+    width: 1.5rem;
     height: auto;
 }
 
@@ -95,6 +94,7 @@ h2 {
     font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 36px;
+    padding: 20px;
 }
 h3 {
     font-family: "Abril Fatface", serif;
@@ -105,6 +105,9 @@ h4 {
     font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 20px;  
+}
+p {
+    text-align: justify;
 }
 
 /* Index */
@@ -133,7 +136,6 @@ h4 {
     width: 50%;
 }
 .info-paginas h2  {
-    padding: 30px;
     gap: 20px;
 }
 .info-paginas p  {
@@ -188,9 +190,10 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.servicios p {
     text-align: center;
 }
-
 .servicios-inicio-texto {
     display: flex;
     flex-direction: column;
@@ -218,6 +221,9 @@ h4 {
     justify-content: space-evenly;
     gap: 30px;
     width: 100%;
+}
+.contacto-logo {
+    width: 2rem;
 }
 /* Sobre Nosotros */
 
@@ -437,7 +443,6 @@ h4 {
             display:flex;
         }
         .nav-item {
-            font-size: 12px;
             padding: 4px 0 ;
         }
         .nav {
@@ -445,22 +450,21 @@ h4 {
             flex-direction: column;
             gap: 2px;
         }
-        .logo {
-            width: 20px;
-            height: auto;
+        main {
+            font-size: 14px;
         }
         .bg-texto-index {
             width: 100%;
             padding: 20px;
             display: flex;
             flex-direction: column;
-            font-size: 14px;
         }
-        .texto-index h1 {
-            font-size: 20px;
+        h1 {
+            font-size: 24px;
         }
-        .texto-index h2 {
+        h2 {
             font-size: 16px;
+            padding: 0;
         }
         .nature {
             display: flex;
@@ -473,13 +477,23 @@ h4 {
             display: flex;
             align-items: center;
         }
+        .info-paginas p {
+            padding: 10px 0;
+        }
+        .nosotros-inicio {
+            flex-direction: column;
+        }
+        .nosotros-inicio img {
+            width: 100%;
+        }
+        .renders-texto-inicio {
+            flex-direction: column;
+        }
+        .img-inicio-proyectos {
+            padding: 20px 0;
+        }
         /* Sobre nosotros */
-        h1 {
-            font-size: 36px;
-        }
-        h2 {
-            font-size: 16px;
-        }
+        
         .historia-mision {
             display: grid;
             padding: 10px;
