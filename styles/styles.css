@@ -129,12 +129,6 @@ h4 {
 .nature img {
     width: 50%;
 }
-.info-paginas p  {
-    gap: 20px;
-}
-.info-paginas p  {
-    gap: 20px;
-}
 .nosotros-inicio {
     display: flex;
     justify-content: center;
@@ -168,6 +162,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .btn-inicio {
     text-decoration: none;
@@ -423,17 +418,13 @@ h4 {
             padding: 4px 0 ;
         }
         .nav {
-            display: flex;
-            flex-direction: column;
             gap: 2px;
         }
         .bg-texto-index {
             width: 100%;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
         }
-        .nature {
+        .nature, .nav, .bg-texto-index, .nature img {
             display: flex;
             flex-direction: column;
             justify-self: center;
@@ -441,17 +432,12 @@ h4 {
         }
         .nature img {
             width: 100%;
-            display: flex;
-            align-items: center;
         }
-        .nosotros-inicio {
+        .nosotros-inicio, .renders-texto-inicio {
             flex-direction: column;
         }
         .nosotros-inicio img {
             width: 100%;
-        }
-        .renders-texto-inicio {
-            flex-direction: column;
         }
         .img-inicio-proyectos {
             padding: 20px 0;
@@ -499,7 +485,7 @@ h4 {
             width: 10px;
         }
         main {
-            font-size: 14px;
+            font-size: 12px;
         }
         h1 {
             font-size: 26px;
@@ -507,7 +493,7 @@ h4 {
         }
         h2 {
             font-size: 20px;
-            padding: 0;;
+            padding: 0px;
         }
         h3 {
             font-size: 16px;
@@ -520,7 +506,6 @@ h4 {
         .historia, .mision, .roles-nature {
             padding: 20px;
         }
-
         /* Servicios  */
         .servicios-pag-img {
             margin: 20px 0;
