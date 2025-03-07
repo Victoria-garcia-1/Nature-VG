@@ -314,7 +314,7 @@ h4 {
     background-color: #7a9f81;
 }
 .card img {
-    width: 12%;
+    width: 9%;
     padding-bottom: 15px;
 }
 .servicios-texto {
@@ -477,7 +477,7 @@ h4 {
             width: 100%;
         }
     }
-    @media (max-width:451px) {
+    @media (max-width:610px) {
         footer p {
             font-size: 8px;
         }
@@ -532,7 +532,7 @@ h4 {
             padding: 10px;
         }
     }
-    @media (min-width:451px) and (max-width:1000px) {
+    @media (min-width:611px) and (max-width:1000px) {
         footer img {
             width: 20px;
         }
@@ -557,9 +557,6 @@ h4 {
         }
         .h2-servicios {
             padding: 20px;
-        }
-        .card img {
-            width: 5%;
         }
         /* Contacto */
         .bg-form {
