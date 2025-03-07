@@ -95,7 +95,7 @@ h2 {
     font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 36px;
-    padding: 20px;
+    padding: 20px 0;
 }
 h3 {
     font-family: "Abril Fatface", serif;
@@ -140,7 +140,6 @@ p {
     gap: 20px;
 }
 .info-paginas p  {
-    padding: 30px;
     gap: 20px;
 }
 .nosotros-inicio {
@@ -149,6 +148,7 @@ p {
     align-items: center;
     background-color: #3b513f;
     padding: 30px;
+    gap: 20px;
     opacity: 0.9;
 }
 .nosotros-inicio img {
@@ -311,6 +311,9 @@ p {
     width: 50%;
 }
 /* Servicios */
+.h2-servicios {
+    padding: 20px;
+}
 .titulo-servicios {
     background-color: #BDC397;
     padding: 10px;
@@ -362,6 +365,8 @@ p {
     justify-content: center;
     align-items: center;
     width: 60% ;
+}
+.p-form {
     text-align: center;
 }
 .formulario {
@@ -422,10 +427,7 @@ p {
 }
 /* Media queries */
     /* Index */
-    @media (max-width:450px) {
-        footer p {
-            font-size: 8px;
-        }
+    @media (max-width:1000px) {
         footer {
             margin-top: auto;
             padding: 4px;
@@ -437,7 +439,6 @@ p {
             justify-items: center;
         }
         footer img {
-            width: 10px;
             display:flex;
         }
         .nav-item {
@@ -448,24 +449,11 @@ p {
             flex-direction: column;
             gap: 2px;
         }
-        main {
-            font-size: 14px;
-        }
         .bg-texto-index {
             width: 100%;
             padding: 20px;
             display: flex;
             flex-direction: column;
-        }
-        h1 {
-            font-size: 26px;
-        }
-        h2 {
-            font-size: 20px;
-            padding: 10px 0;
-        }
-        h3 {
-            font-size: 16px;
         }
         .nature {
             display: flex;
@@ -477,9 +465,6 @@ p {
             width: 100%;
             display: flex;
             align-items: center;
-        }
-        .info-paginas p {
-            padding: 10px 0;
         }
         .nosotros-inicio {
             flex-direction: column;
@@ -496,13 +481,9 @@ p {
         /* Sobre nosotros */
         .historia, .mision, .roles-nature {
             flex-direction: column;
-            padding: 10px;
         }
         .historia img, .mision img {
             width: 100%;
-        }
-        .roles-nature {
-            padding: 20px 0;
         }
         /* Proyectos */
         .proyectos-img-p {
@@ -517,10 +498,7 @@ p {
         /* Servicios */
         .cards-2 {
             flex-direction: column;
-            margin: 0;
-        }
-        .servicios-pag-img {
-            margin: 20px 0;
+            margin: 20px;
         }
         /* Contacto */
         .titulo-p-form {
@@ -532,9 +510,50 @@ p {
             padding: 10px 30px;
         }
         .bg-form {
+            width: 100%;
+        }
+    }
+    @media (max-width:451px) {
+        footer p {
+            font-size: 8px;
+        }
+        footer img {
+            width: 10px;
+        }
+        main {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 26px;
+            padding: 0px;
+        }
+        h2 {
+            font-size: 20px;
+            padding: 0;;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        /* Index */
+        .info-paginas p {
+            padding: 0;
+        }
+        /* Sobre nosotros */
+        .historia, .mision, .roles-nature {
+            padding: 20px;
+        }
+
+        /* Servicios  */
+        .servicios-pag-img {
+            margin: 20px 0;
+        }
+        .h2-servicios {
+            padding: 20px;
+        }
+        /* Contacto */
+        .bg-form {
             padding: 10px;
             margin: 10px;
-            width: 100%;
             border-radius: 31px ;
         }
         .estilo-input {
@@ -550,111 +569,52 @@ p {
             padding: 10px;
         }
     }
-    @media (min-width: 451px) and (max-width: 768px) {
-    /* Index */
-        footer p {
-            font-size: 12px;
-        }
-        footer {
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2,1fr);
-            grid-template-areas: 
-                "copyright copyright instagram"
-                "copyright copyright telefono";
-            justify-items: center;
-        }
+    @media (min-width:451px) and (max-width:1000px) {
         footer img {
-            width: 14px;
-            display:flex ;
-        }
-        .nav {
-            display: flex;
-            flex-direction: column;
+            width: 20px;
         }
         h1 {
-            font-size: 34px;
+            font-size: 44px;
+            padding: 0px;
         }
         h2 {
-            font-size: 26px;
-            padding: 10px 0;
+            font-size: 34px;
+            padding: 0;
         }
         h3 {
-            font-size: 20px;
+            font-size: 28px;
         }
-        main {
-            font-size: 16px;
-        }
-        .bg-texto-index {
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-        }
-        .nature {
-            display: flex;
-            flex-direction: column;
-            justify-self: center;
-            align-items: center;
-        }
-        .nature img {
-            width: 100%;
-        }
-        .info-paginas p {
-            padding: 10px
-        }
-        .nosotros-inicio {
-            flex-direction: column;
-        }
-        .nosotros-inicio img {
-            width: 100%;
-        }
-    /* Sobre nosotros */
+        /* Sobre nosotros */
         .historia, .mision, .roles-nature {
-            flex-direction: column;
-            padding: 20px;
-        }
-        .historia img, .mision img {
-            width: 100%;
-        }
-        .roles-nature {
-            padding: 20px 0;
-        }
-    /* Proyectos */
-        .proyectos-img-p {
-            flex-direction: column;
-        }
-        .parques img {
-            width: 100%;
-        }
-        .parques h2 {
-            padding: 20px;
-        }
-         /* Contacto */
-         .titulo-p-form {
-            width: 100% ;
-        }
-        .formulario {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            justify-content: center;
             padding: 30px;
         }
-        .p-form {
-            font-size: 14px;
+        /* Servicios  */
+        .servicios-pag-img {
+            margin: 20px 0;
         }
+        .h2-servicios {
+            padding: 20px;
+        }
+        .card img {
+            width: 5%;
+        }
+        /* Contacto */
         .bg-form {
-            padding: 10px;
-            margin: 10px;
-            width: 100%;
-            border-radius: 31px ;
+            padding: 30px;
+            margin: 20px;
         }
         .estilo-input {
-            font-size: 12px;
-        }
-        .input-label {
             font-size: 16px;
         }
-
+        .input-label {
+            font-size: 24px;
+        }
+        .faq {
+            margin: 30px 0;
+        }  
+        .faq-link {
+            padding: 10px;
+        }
     }
-
-
+    
+    
