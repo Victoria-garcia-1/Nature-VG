@@ -14,10 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: justify;
 }
-
 /* Navbar */
-
 .bg-nav-vic {
     background-color: #3D511F;
 }
@@ -67,17 +66,16 @@ footer img {
     width: 30px;
     height: auto;
 }
-.instagram {
-    grid-area: instagram;
+.instagram, .telefono {
     display: flex;
     align-items: center;
     justify-content: end;
 }
+.instagram {
+    grid-area: instagram;
+}
 .telefono {
     grid-area: telefono;
-    display: flex;
-    align-items: center;
-    justify-content: end;
 }
 .copyright {
     grid-area: copyright;
@@ -85,32 +83,27 @@ footer img {
 }
 
 /* h1 h2 h3*/
-h1 {
+h1, h2, h3, h4 {
     font-family: "Abril Fatface", serif;
+}
+h1 {
     text-align: center;
     font-size: 64px;
     padding: 20px;
 }
 h2 {
-    font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 36px;
     padding: 20px 0;
 }
 h3 {
-    font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 26px;  
 }
 h4 {
-    font-family: "Abril Fatface", serif;
     text-align: start;
     font-size: 20px;  
 }
-p {
-    text-align: justify;
-}
-
 /* Index */
 .fondo-menu {
     background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
@@ -136,7 +129,7 @@ p {
 .nature img {
     width: 50%;
 }
-.info-paginas h2  {
+.info-paginas p  {
     gap: 20px;
 }
 .info-paginas p  {
@@ -195,11 +188,13 @@ p {
 .servicios p {
     text-align: center;
 }
-.servicios-inicio-texto {
+.servicios-inicio-texto, .contacto-inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.servicios-inicio-texto {
     position: absolute;
 }
 .servicios img {
@@ -207,10 +202,6 @@ p {
  filter: brightness(0.6);
 }
 .contacto-inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #3b513f;
     padding: 30px;
     opacity: 0.9;
@@ -232,16 +223,18 @@ p {
     padding: 20px 0;
     margin-bottom: 50px;
 }
-.historia {
+.historia, .mision {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #7a9681;
     gap: 20px;
 }
-.historia img {
-    width: 50%;
+.historia img, .mision img {
+        width: 50%;
+}
+.historia {
+    flex-direction: row-reverse;
+    background-color: #7a9681;
 }
 .organiza-nature {
     padding: 40px 0px;
@@ -257,7 +250,7 @@ p {
     justify-content: center;
     padding: 20px;
 }
-.analistas {
+.analistas, .jardineros {
     width: 100%;
     background-color: #3b513f;
     padding: 20px;
@@ -267,22 +260,10 @@ p {
     background-color: #7a9681;
     padding: 20px;
 }
-.jardineros {
-    width: 100%;
-    background-color: #3b513f;
-    padding: 20px;
-}
 .mision {
-    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
-    gap: 20px;
     background-color:  #3b513f;
     margin-bottom: 40px;
-}
-.mision img {
-    width: 50%;
 }
 /* Proyectos */
 .carrusel-estilo-vic {
@@ -341,7 +322,6 @@ p {
     width: 12%;
     padding-bottom: 15px;
 }
-
 .servicios-texto {
     display: flex;
     flex-direction: column;
@@ -359,11 +339,13 @@ p {
     background-position: center;
     min-height: 100vh;
 }
-.titulo-p-form {
+.titulo-p-form, .faq {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: center;
+}
+.titulo-p-form {
     width: 60% ;
 }
 .p-form {
@@ -407,10 +389,6 @@ p {
    opacity: 0.9;
    margin: 40px;
    border-radius: 20px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-self: center;
 }
 .faq-h2 {
     display: flex;
