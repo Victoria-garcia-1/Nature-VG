@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 /* Estilos generales */
-body {
+/* body {
     font-family: "Raleway", serif;
     font-size: 24px;
     background-color:#48634e;
@@ -15,43 +15,43 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: justify;
-}
+} */
 /* Navbar */
-.bg-nav-vic {
+/* .bg-nav-vic {
     background-color: #3D511F;
-}
-.logo {
+} */
+/* .logo {
     width: 2rem;
     height: auto;
-}
-.nav-item {
+} */
+/* .nav-item {
     font-size: 1rem;
     padding: 10px 20px;
-}
-.nav-link {
+} */
+/* .nav-link {
     color: white;
-}
-.nav-link:hover {
+} */
+/* .nav-link:hover {
     color: #C2E6C9;
-}
-.active-vic {
+} */
+/* .active-vic {
     color:#7a9681;
-}
-.style-toggler {
+} */
+/* .style-toggler {
     border: none;
     box-shadow: none;
 }
 .menu-svg-vic {
     width: 1.5rem;
     height: auto;
-}
+} */
 
 /* Footer */
 
-footer {
+/* footer {
     background-color: #3D511F;
     width: 100%;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-areas: "copyright copyright instagram telefono ";
@@ -60,13 +60,13 @@ footer {
 footer p {
     margin: 10px;
     font-size: 16px;
-}
-footer img {
+} */
+/* footer img {
     margin: 10px;
     width: 30px;
     height: auto;
-}
-.instagram, .telefono {
+} */
+/* .instagram, .telefono {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -80,7 +80,7 @@ footer img {
 .copyright {
     grid-area: copyright;
     justify-content: start;
-}
+} */
 
 /* h1 h2 h3*/
 h1, h2, h3, h4 {
@@ -98,7 +98,7 @@ h2 {
 }
 h3 {
     text-align: start;
-    font-size: 26px;  
+    font-size: 28px;  
 }
 h4 {
     text-align: start;
@@ -545,7 +545,10 @@ h4 {
             padding: 0;
         }
         h3 {
-            font-size: 28px;
+            font-size: 26px;
+        }
+        main {
+            font-size: 20px;
         }
         /* Sobre nosotros */
         .historia, .mision, .roles-nature {

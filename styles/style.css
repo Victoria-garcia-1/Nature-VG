@@ -1,0 +1,62 @@
+/*Maps*/
+/* Mixins*/
+/* Estilos generales*/
+body {
+  font-family: "Raleway", serif;
+  font-size: 24px;
+  background-color: #48634e;
+  color: #FFFFFF;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #3D511F;
+}
+nav .logo {
+  width: 2rem;
+  height: auto;
+}
+nav .style-toggler {
+  border: none;
+  box-shadow: none;
+}
+nav .style-toggler .menu-svg-vic {
+  width: 1.5rem;
+  height: auto;
+}
+nav ul {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+nav ul li .nav-link {
+  color: #FFFFFF;
+}
+nav ul li .nav-link:hover {
+  color: #C2E6C9;
+}
+nav ul li .active-vic {
+  color: #7a9681;
+}
+
+footer {
+  background-color: #3D511F;
+  width: 100%;
+  height: auto;
+  padding: 8px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+footer p {
+  font-size: 16px;
+  margin: 10px;
+}
+footer img {
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

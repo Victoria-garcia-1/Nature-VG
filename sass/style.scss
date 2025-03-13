@@ -1,0 +1,119 @@
+/*Maps*/
+$color: (
+    verde-oscuro-3: #2a3816,
+    verde-oscuro-1: #3D511F,
+    verde-azulado-2: #3b513f,
+    verde-azulado-1: #48634e,
+    verde-claro: #7a9681,
+    verde-hover: #C2E6C9,
+    verde-amarillento: #BDC397,
+    blanco: #FFFFFF
+
+);
+$font-sizes-p: (
+    xs: 10px,
+    s: 12px,
+    m: 13px,
+    l: 16px,
+    xl: 20px,
+    xxl: 24px
+);
+$font-sizes-h1: (
+    xs: 24px,
+    m: 44px,
+    l: 64px
+);
+$font-sizes-h2: (
+    xs: 20px,
+    m: 34px,
+    l: 36px
+);
+$font-sizes-h3: (
+    xs: 16px,
+    m: 26px,
+    l: 28px
+);
+/*Variables*/
+$font-titulo: "Abril Fatface", serif;
+$font-p: "Raleway", serif;
+/* Mixins*/
+@mixin flex ($direction,$justify,$align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin grid ($columnas, $gap, $gridarea) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    grid-template-areas: $grid-area;
+}
+@mixin medidas ($width,$height) {
+    width: $width;
+    height: $height;
+}
+/* Estilos generales*/
+body {
+    font-family: $font-p;
+    font-size: map-get($font-sizes-p, l );
+    background-color: map-get($color, verde-azulado-1);
+    color: map-get($color, blanco );
+    min-height: 100vh;
+}
+nav {
+    background-color: map-get($color, verde-oscuro-1 );
+    .logo {
+        @include medidas (2rem, auto)
+    }
+    .style-toggler {
+        border: none;
+        box-shadow: none;
+        .menu-svg-vic {
+            @include medidas (1.5rem, auto);
+        }               
+    }
+    ul {
+        font-size: map-get($font-sizes-nav, l );
+        padding: 10px 20px;
+        li {
+            .nav-link {
+                color: map-get($color, blanco );
+                &:hover {
+                    color: map-get($color, verde-hover  );
+                }
+            }
+            .active-vic {
+                color: map-get($color , verde-claro );
+            }
+        }
+    }
+}
+footer {
+    background-color: map-get($color, verde-oscuro-1 );
+    @include medidas (100%, auto);
+    padding: 8px 30px;
+    @include flex(row, space-between , center);
+    gap: 20px;
+    p {
+        font-size: map-get($font-sizes-nav, l );
+        margin: 10px;
+    }
+    img {
+        @include medidas(30px, auto);
+        margin: 10px;
+    }
+}
+h1 {
+    font-family: $font-titulo;
+    font-size: map-get($font-sizes-h1,l );
+    padding: 20px;
+}
+h2 {
+    font-family: $font-titulo;
+    font-size: map-get($font-sizes-h2,l );
+    padding: 20px 0;
+}
+h3 {
+    font-family: $font-titulo;
+    font-size: map-get($font-sizes-h3,l );
+}
