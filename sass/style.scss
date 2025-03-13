@@ -1,4 +1,4 @@
-/*Maps*/
+
 $color: (
     verde-oscuro-3: #2a3816,
     verde-oscuro-1: #3D511F,
@@ -33,10 +33,10 @@ $font-sizes-h3: (
     m: 26px,
     l: 28px
 );
-/*Variables*/
+
 $font-titulo: "Abril Fatface", serif;
 $font-p: "Raleway", serif;
-/* Mixins*/
+
 @mixin flex ($direction,$justify,$align) {
     display: flex;
     flex-direction: $direction;
@@ -52,7 +52,7 @@ $font-p: "Raleway", serif;
     width: $width;
     height: $height;
 }
-/* Estilos generales*/
+
 body {
     font-family: $font-p;
     font-size: map-get($font-sizes-p, l );
@@ -95,7 +95,7 @@ footer {
     @include flex(row, space-between , center);
     gap: 20px;
     p {
-        font-size: map-get($font-sizes-nav, l );
+        font-size: map-get($font-sizes-p, l );
         margin: 10px;
     }
     img {
