@@ -283,7 +283,7 @@ h3 {
     width: 50%;
 } */
 /* Servicios */
-.h2-servicios {
+/* .h2-servicios {
     padding: 20px;
 }
 .titulo-servicios {
@@ -320,7 +320,7 @@ h3 {
     justify-content: center;
     position: absolute;
     text-align: center;
-}
+} */
 /* Contacto */
 .fondo-contacto {
     background-image: url(../assets/imagenes/Fondo-contacto.png);

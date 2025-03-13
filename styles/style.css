@@ -61,6 +61,10 @@ h1 {
   font-family: "Abril Fatface", serif;
   font-size: 64px;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -212,10 +216,6 @@ h3 {
   background-color: #BDC397;
   padding: 20px 0;
   margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .historia, .mision {
@@ -361,6 +361,92 @@ h3 {
   align-items: center;
   position: absolute;
   text-align: center;
+}
+
+/*Contacto*/
+.fondo-contacto {
+  background-size: cover;
+  background-repeat: no- no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  background-image: url(../assets/imagenes/Fondo-contacto.png);
+}
+
+.titulo-p-form, .faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-p-form {
+  width: 60%;
+  height: auto;
+}
+
+.p-form {
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.formulario .bg-form {
+  background-color: #3D511F;
+  opacity: 0.9;
+  padding: 20px;
+  margin: 40px;
+  width: 50%;
+  height: auto;
+  border-radius: 31px;
+}
+.formulario .input-label {
+  padding: 10px;
+  font-size: 20px;
+}
+.formulario .submit-button {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.formulario .submit-button .btn-estilo {
+  background-color: #BDC397;
+  border: none;
+}
+.formulario .submit-button :hover {
+  opacity: 0.9;
+  background-color: #2a3816;
+  transform: scale(1.05, 1.05);
+}
+
+.faq {
+  background-color: #3b513f;
+  opacity: 0.9;
+  margin: 40px;
+  border-radius: 20px;
+}
+.faq .faq-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 20px;
+}
+.faq .texto-faq {
+  padding: 20px;
+}
+
+.faq-h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
