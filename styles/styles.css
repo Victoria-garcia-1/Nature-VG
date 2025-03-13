@@ -192,7 +192,7 @@ h3 {
  width: 100%;
  filter: brightness(0.6);
 } */
-.contacto-inicio {
+/* .contacto-inicio {
     background-color: #3b513f;
     padding: 30px;
     opacity: 0.9;
@@ -207,9 +207,9 @@ h3 {
 }
 .contacto-logo {
     width: 1.5rem;
-}
+} */
 /* Sobre Nosotros */
-.titulo-sobre-nosotros {
+/* .titulo-sobre-nosotros {
     background-color: #BDC397;
     padding: 20px 0;
     margin-bottom: 50px;
@@ -255,7 +255,7 @@ h3 {
     flex-direction: row;
     background-color:  #3b513f;
     margin-bottom: 40px;
-}
+} */
 /* Proyectos */
 .carrusel-estilo-vic {
     width: 100%;

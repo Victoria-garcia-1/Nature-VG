@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Raleway", serif;
   font-size: 24px;
@@ -205,5 +206,73 @@ h3 {
   width: 1.5rem;
   height: auto;
 }
+
+/*Sobre nosotros*/
+.titulo-sobre-nosotros {
+  background-color: #BDC397;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.historia, .mision {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.historia img, .mision img {
+  width: 50%;
+  height: auto;
+}
+
+.historia {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #7a9681;
+}
+
+.organiza-nature {
+  padding: 40px 0px;
+}
+.organiza-nature h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.organiza-nature .roles-nature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+.organiza-nature .roles-nature .analistas, .organiza-nature .roles-nature .jardineros {
+  width: 100%;
+  background-color: #3b513f;
+  padding: 20px;
+}
+.organiza-nature .roles-nature .diseñadores {
+  width: 100%;
+  background-color: #7a9681;
+  padding: 20px;
+}
+
+.mision {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b513f;
+  margin-bottom: 40px;
+}
+
+/*Proyectos*/
 
 /*# sourceMappingURL=style.css.map */
