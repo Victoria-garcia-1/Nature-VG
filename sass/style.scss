@@ -73,7 +73,7 @@ nav {
         }               
     }
     ul {
-        font-size: map-get($font-sizes-nav, l );
+        font-size: map-get($font-sizes-p, l );
         padding: 10px 20px;
         li {
             .nav-link {
@@ -105,7 +105,7 @@ footer {
 }
 h1 {
     font-family: $font-titulo;
-    font-size: map-get($font-sizes-h1,l );
+    font-size: map-get($font-sizes-h1, l );
     padding: 20px;
 }
 h2 {

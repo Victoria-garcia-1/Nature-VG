@@ -1,62 +1,17 @@
-/*Maps*/
-/* Mixins*/
-/* Estilos generales*/
-body {
-  font-family: "Raleway", serif;
-  font-size: 24px;
-  background-color: #48634e;
-  color: #FFFFFF;
-  min-height: 100vh;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 98 |         font-size: map-get($font-sizes-nav, l );
+ *    |                            ^^^^^^^^^^^^^^^
+ *    '
+ *   sass\style.scss 98:28  root stylesheet */
 
-nav {
-  background-color: #3D511F;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 98 \2502          font-size: map-get($font-sizes-nav, l );\d\a    \2502                             ^^^^^^^^^^^^^^^\a    \2575 \a   sass\\style.scss 98:28  root stylesheet";
 }
-nav .logo {
-  width: 2rem;
-  height: auto;
-}
-nav .style-toggler {
-  border: none;
-  box-shadow: none;
-}
-nav .style-toggler .menu-svg-vic {
-  width: 1.5rem;
-  height: auto;
-}
-nav ul {
-  font-size: 16px;
-  padding: 10px 20px;
-}
-nav ul li .nav-link {
-  color: #FFFFFF;
-}
-nav ul li .nav-link:hover {
-  color: #C2E6C9;
-}
-nav ul li .active-vic {
-  color: #7a9681;
-}
-
-footer {
-  background-color: #3D511F;
-  width: 100%;
-  height: auto;
-  padding: 8px 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-footer p {
-  font-size: 16px;
-  margin: 10px;
-}
-footer img {
-  width: 30px;
-  height: auto;
-  margin: 10px;
-}
-
-/*# sourceMappingURL=style.css.map */
