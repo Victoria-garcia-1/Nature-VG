@@ -43,19 +43,22 @@ $font-p: "Raleway", serif;
     justify-content: $justify;
     align-items: $align;
 }
-@mixin grid ($columnas, $gap, $gridarea) {
-    display: grid;
-    grid-template-columns: repeat($columnas, 1fr);
-    grid-template-areas: $grid-area;
-}
 @mixin medidas ($width,$height) {
     width: $width;
     height: $height;
 }
+@mixin background-img ($bgsize, $bgrepeat, $bgattachment, $bgposition, $bgheight) {
+    background-size: $bgsize;
+    background-repeat: no-$bgrepeat;
+    background-attachment: $bgattachment;
+    background-position: $bgposition;
+    min-height: $bgheight;
+}
+
 
 body {
     font-family: $font-p;
-    font-size: map-get($font-sizes-p, l );
+    font-size: map-get($font-sizes-p, xxl );
     background-color: map-get($color, verde-azulado-1 );
     color: map-get($color, blanco );
     min-height: 100vh;
@@ -117,3 +120,95 @@ h3 {
     font-family: $font-titulo;
     font-size: map-get($font-sizes-h3,l );
 }
+/*Index*/
+.fondo-menu {
+    background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
+    @include background-img(cover, no-repeat, fixed, center, 100vh )
+}
+.bg-texto-index {
+    background-color: map-get($color, verde-oscuro-3 );
+    opacity: 0.7;
+    @include medidas(100%, auto );
+    border-top-right-radius: 36px;
+    padding: 40px;
+}
+.nature {
+    @include flex(row-reverse, space-between , center );
+    img {
+        @include medidas(50%, auto )
+    }
+}
+.nosotros-inicio {
+    @include flex(row, center, center );
+    background-color: #3b513f;
+    padding: 30px;
+    gap: 20px;
+    opacity: 0.9;
+    img {
+        @include medidas(50%, auto );
+        border-style: solid;
+        border-color: #2a3816;
+    }
+}
+.proyectos-inicio {
+    background-color: #2a3816;
+    opacity: 0.9;
+    gap: 20px;
+    padding: 30px;
+    .img-inicio-proyectos {
+        @include flex(row, space-between, center );
+        padding: 30px;
+        gap: 20px;
+        img {
+            @include medidas(45%, auto )
+        }
+    }
+    .renders-texto-inicio {
+        @include flex(row, center, center );
+        gap: 20px;
+    }
+    button {
+        @include flex(row, end, center );
+    }
+}
+.btn-inicio {
+    text-decoration: none;
+    color: map-get($color, blanco );
+    background-color: map-get($color, verde-claro);
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.servicios {
+    @include flex(column, space-evenly, center);
+    p {
+        text-align: center;
+    }
+    .servicios-inicio-texto {
+        position: absolute;
+    }
+    img {
+        @include medidas(100%, auto);
+        filter: brightness(0.6)
+    }
+}
+.servicios-inicio-texto, .contacto-inicio {
+    @include flex(column, center, center);
+}
+.contacto-inicio {
+    background-color: #3b513f;
+    padding: 30px;
+    opacity: 0.9;
+    .redes-contacto-inicio {
+        padding: 20px;
+        @include flex(row, space-evenly, center);
+        gap: 30px;
+        @include medidas(100%, auto);
+    }
+    .contacto-logo {
+        @include medidas(1.5rem, auto);
+    }
+}
+
+
+
