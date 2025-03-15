@@ -322,7 +322,7 @@ h3 {
     text-align: center;
 } */
 /* Contacto */
-.fondo-contacto {
+/* .fondo-contacto {
     background-image: url(../assets/imagenes/Fondo-contacto.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,11 +393,11 @@ h3 {
 }
 .texto-faq {
     padding: 20px;
-}
+} */
 /* Media queries */
     /* Index */
-    @media (max-width:1000px) {
-        footer {
+    /* @media (max-width:1000px) { */
+        /* footer {
             margin-top: auto;
             padding: 4px;
             grid-template-columns: repeat(3,1fr);
@@ -437,16 +437,16 @@ h3 {
         }
         .img-inicio-proyectos {
             padding: 20px 0;
-        }
+        } */
         /* Sobre nosotros */
-        .historia, .mision, .roles-nature {
+        /* .historia, .mision, .roles-nature {
             flex-direction: column;
         }
         .historia img, .mision img {
             width: 100%;
-        }
+        } */
         /* Proyectos */
-        .proyectos-img-p {
+        /* .proyectos-img-p {
             flex-direction: column;
         }
         .parques img {
@@ -454,14 +454,14 @@ h3 {
         }
         .parques h2 {
             padding: 20px;
-        }
+        } */
         /* Servicios */
-        .cards-2 {
+        /* .cards-2 {
             flex-direction: column;
             margin: 20px;
-        }
+        } */
         /* Contacto */
-        .titulo-p-form {
+        /* .titulo-p-form {
             width: 100% ;
         }
         .formulario {
@@ -472,9 +472,9 @@ h3 {
         .bg-form {
             width: 100%;
         }
-    }
-    @media (max-width:610px) {
-        footer p {
+    } */
+    /* @media (max-width:610px) { */
+        /* footer p {
             font-size: 8px;
         }
         footer img {
@@ -493,24 +493,24 @@ h3 {
         }
         h3 {
             font-size: 16px;
-        }
+        } */
         /* Index */
-        .info-paginas p {
+        /* .info-paginas p {
             padding: 0;
         }
         /* Sobre nosotros */
-        .historia, .mision, .roles-nature {
+        /* .historia, .mision, .roles-nature {
             padding: 20px;
-        }
+        } */
         /* Servicios  */
-        .servicios-pag-img {
+        /* .servicios-pag-img {
             margin: 20px 0;
         }
         .h2-servicios {
             padding: 20px;
-        }
+        } */ */
         /* Contacto */
-        .bg-form {
+        /* .bg-form {
             padding: 10px;
             margin: 10px;
             border-radius: 31px ;
@@ -526,9 +526,9 @@ h3 {
         }  
         .faq-link {
             padding: 10px;
-        }
-    }
-    @media (min-width:611px) and (max-width:1000px) {
+        } */
+    /* } */
+    /* /* @media (min-width:611px) and (max-width:1000px) { */
         footer img {
             width: 20px;
         }
@@ -545,20 +545,20 @@ h3 {
         }
         main {
             font-size: 20px;
-        }
+        } 
         /* Sobre nosotros */
-        .historia, .mision, .roles-nature {
+        /* .historia, .mision, .roles-nature {
             padding: 30px;
-        }
+        } */
         /* Servicios  */
-        .servicios-pag-img {
+        /* .servicios-pag-img {
             margin: 20px 0;
         }
         .h2-servicios {
             padding: 20px;
-        }
+        } */
         /* Contacto */
-        .bg-form {
+        /* .bg-form {
             padding: 30px;
             margin: 20px;
         }
@@ -574,6 +574,4 @@ h3 {
         .faq-link {
             padding: 10px;
         }
-    }
-    
-    
+}

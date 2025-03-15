@@ -449,4 +449,191 @@ h3 {
   padding: 20px;
 }
 
+/*Media queries*/
+/*Index*/
+@media (max-width: 1000px) {
+  footer p {
+    font-size: 13px;
+  }
+  .nav, .bg-texto-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nature img {
+    width: 100%;
+    height: auto;
+  }
+  .nosotros-inicio, .renders-texto-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros-inicio img {
+    width: 100%;
+    height: auto;
+  }
+  .img-inicio-proyectos {
+    padding: 20px 0;
+  }
+  /* Sobre nosotros */
+  .historia, .mision, .roles-nature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .historia img, .mision img, .roles-nature img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Proyectos */
+.proyectos-img-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parque img {
+  width: 100%;
+  height: auto;
+}
+.parque h2 {
+  padding: 20px;
+}
+
+/* Servicios */
+.cards-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Contacto */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+.formulario .titulo-p-form, .formulario .bg-form {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 610px) {
+  footer p {
+    font-size: 10px;
+  }
+  footer img {
+    width: 10px;
+    height: auto;
+  }
+  main {
+    font-size: 12px;
+  }
+  main h1 {
+    font-size: 24px;
+  }
+  main h2 {
+    font-size: 20px;
+  }
+  main h3 {
+    font-size: 16px;
+  }
+  /* Index */
+  .info-paginas p {
+    padding: 0;
+  }
+  /* Sobre nosotros */
+  .historia, .mision, .roles-nature {
+    padding: 20px;
+  }
+  /* Servicios  */
+  .servicios img {
+    margin: 20px 0;
+  }
+  .servicios h2 {
+    padding: 20px;
+  }
+  /*Contacto*/
+  .bg-form {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 31px;
+  }
+  .bg-form .estilo-input {
+    font-size: 10px;
+  }
+  .bg-form .input-label {
+    font-size: 13px;
+  }
+  .faq {
+    margin: 20px 0;
+  }
+  .faq .faq-link {
+    padding: 10px;
+  }
+}
+@media (min-width: 611px) and (max-width: 1000px) {
+  footer img {
+    width: 20px;
+    height: auto;
+  }
+  main {
+    font-size: 20px;
+  }
+  main h1 {
+    font-size: 44px;
+  }
+  main h2 {
+    font-size: 34px;
+  }
+  main h3 {
+    font-size: 26px;
+  }
+  /* Sobre nosotros */
+  .historia, .mision, .roles-nature {
+    padding: 30px;
+  }
+  /* Servicios  */
+  .servicios img {
+    margin: 20px 0;
+  }
+  .servicios h2 {
+    padding: 20px;
+  }
+  /* Contacto */
+  .bg-form {
+    padding: 30px;
+    margin: 20px;
+  }
+  .bg-form .estilo-input {
+    font-size: 16px;
+  }
+  .bg-form .input-label {
+    font-size: 24px;
+  }
+  .faq {
+    margin: 30px 0;
+  }
+  .faq .faq-link {
+    padding: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

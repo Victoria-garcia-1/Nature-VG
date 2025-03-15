@@ -19,17 +19,17 @@ $font-sizes-p: (
     xxl: 24px
 );
 $font-sizes-h1: (
-    xs: 24px,
+    s: 24px,
     m: 44px,
     l: 64px
 );
 $font-sizes-h2: (
-    xs: 20px,
+    s: 20px,
     m: 34px,
     l: 36px
 );
 $font-sizes-h3: (
-    xs: 16px,
+    s: 16px,
     m: 26px,
     l: 28px
 );
@@ -375,4 +375,167 @@ h3 {
     @include flex(row, center, center);
     padding: 20px;
    }
-
+/*Media queries*/
+/*Index*/
+@media (max-width:1000px) {
+    footer {
+        p {
+         font-size: map-get($font-sizes-p, m );
+        }
+    }
+    .nav, .bg-texto-index{
+        @include flex(column, center, center);
+    }
+    .nature {
+        @include flex(column, center, center);
+        img {
+            @include medidas(100%, auto );
+        }
+    }
+    .nosotros-inicio, .renders-texto-inicio {
+        @include flex(column, center, center);
+    }
+    .nosotros-inicio img {
+        @include medidas(100%, auto);
+    }
+    .img-inicio-proyectos {
+        padding: 20px 0;
+    }
+/* Sobre nosotros */
+    .historia, .mision, .roles-nature {
+        @include flex(column, center, center);
+        img {
+            @include medidas(100%, auto )
+        }
+    }
+}
+/* Proyectos */
+    .proyectos-img-p {
+        @include flex(column, center, center);
+        flex-direction: column;
+    }
+    .parque {
+        img {
+            @include medidas(100%, auto);
+        }
+        h2 {
+            padding: 20px;
+        }
+    }
+ /* Servicios */
+    .cards-2 {
+        @include flex(column, center, center);
+        margin: 20px;
+    }
+ /* Contacto */
+    .formulario {
+        @include flex(column, center, center);
+        padding: 10px 30px;
+        .titulo-p-form, .bg-form {
+            @include medidas(100%, auto);
+        }
+    }
+    @media (max-width:610px) {
+    footer {
+        p {
+            font-size: map-get($font-sizes-p, xs);
+        }
+        img {
+            @include medidas(10px, auto);
+        }
+    }
+    main {
+        font-size: map-get($font-sizes-p, s);
+        h1 {
+            font-size: map-get($font-sizes-h1, s);  
+        }
+        h2 {
+            font-size: map-get($font-sizes-h2, s);  
+        }
+        h3 {
+            font-size: map-get($font-sizes-h3, s);  
+        }
+    }
+/* Index */
+    .info-paginas p {
+        padding: 0;
+    }
+/* Sobre nosotros */
+    .historia, .mision, .roles-nature {
+        padding: 20px;
+    }
+/* Servicios  */
+    .servicios{
+        img {
+            margin: 20px 0;
+        }
+        h2 {
+            padding: 20px;
+        }
+    }
+/*Contacto*/
+    .bg-form {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 31px ;
+        .estilo-input {
+            font-size: map-get($font-sizes-p, xs );
+        }
+        .input-label {
+            font-size: map-get($font-sizes-p, m);
+        }
+    }
+    .faq {
+        margin: 20px 0;
+        .faq-link {
+            padding: 10px;
+        }
+    }  
+    }
+    @media (min-width:611px) and (max-width:1000px) {
+        footer img {
+            @include medidas(20px, auto);
+        }
+        main {
+            font-size: map-get($font-sizes-p, xl);
+            h1 {
+                font-size: map-get($font-sizes-h1, m);  
+            }
+            h2 {
+                font-size: map-get($font-sizes-h2, m);  
+            }
+            h3 {
+                font-size: map-get($font-sizes-h3, m);  
+            }
+        }
+    /* Sobre nosotros */
+        .historia, .mision, .roles-nature {
+            padding: 30px;
+        }
+    /* Servicios  */
+    .servicios{
+        img {
+            margin: 20px 0;
+        }
+        h2 {
+            padding: 20px;
+        }
+    }
+/* Contacto */
+    .bg-form {
+        padding: 30px;
+        margin: 20px;
+        .estilo-input {
+            font-size: map-get($font-sizes-p, l);
+        }
+        .input-label {
+            font-size: map-get($font-sizes-p, xxl);
+        }
+    }
+    .faq {
+        margin: 30px 0;
+        .faq-link {
+            padding: 10px;
+        }
+    }  
+    }
