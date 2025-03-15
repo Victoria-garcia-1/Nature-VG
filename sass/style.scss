@@ -411,7 +411,11 @@ h3 {
             @include medidas(100%, auto )
         }
     }
-
+    .organiza-nature {
+        .roles-nature {
+            @include flex(column, center, center );
+        }
+    }
 /* Proyectos */
     .proyectos-img-p {
         @include flex(column, center, center);

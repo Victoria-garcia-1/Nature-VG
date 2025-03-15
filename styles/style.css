@@ -495,6 +495,12 @@ h3 {
     width: 100%;
     height: auto;
   }
+  .organiza-nature .roles-nature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   /* Proyectos */
   .proyectos-img-p {
     display: flex;
