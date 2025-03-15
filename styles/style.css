@@ -495,46 +495,42 @@ h3 {
     width: 100%;
     height: auto;
   }
+  /* Proyectos */
+  .proyectos-img-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .parque img {
+    width: 100%;
+    height: auto;
+  }
+  .parque h2 {
+    padding: 20px;
+  }
+  /* Servicios */
+  .cards-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  /* Contacto */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  .formulario .titulo-p-form, .formulario .bg-form {
+    width: 100%;
+    height: auto;
+  }
 }
-/* Proyectos */
-.proyectos-img-p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.parque img {
-  width: 100%;
-  height: auto;
-}
-.parque h2 {
-  padding: 20px;
-}
-
-/* Servicios */
-.cards-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-/* Contacto */
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 30px;
-}
-.formulario .titulo-p-form, .formulario .bg-form {
-  width: 100%;
-  height: auto;
-}
-
 @media (max-width: 610px) {
   footer p {
     font-size: 10px;
