@@ -452,6 +452,12 @@ h3 {
 /*Media queries*/
 /*Index*/
 @media (max-width: 1000px) {
+  footer .instagram-f, footer .telefono-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
   footer p {
     font-size: 13px;
   }

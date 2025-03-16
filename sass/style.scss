@@ -382,6 +382,9 @@ h3 {
 /*Index*/
 @media (max-width:1000px) {
     footer {
+        .instagram-f, .telefono-f {
+            @include flex(row, start , center );
+        }
         p {
          font-size: map-get($font-sizes-p, m );
         }
