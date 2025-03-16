@@ -101,6 +101,13 @@ footer {
     padding: 8px 30px;
     @include flex(row, space-between , center);
     gap: 20px;
+    .redes {
+        @include flex(row, center , center );
+        .instagram-f, .telefono-f {
+            @include flex(row, start , center );
+    }
+    }
+
     p {
         font-size: map-get($font-sizes-p, l );
         margin: 10px;
@@ -382,8 +389,11 @@ h3 {
 /*Index*/
 @media (max-width:1000px) {
     footer {
-        .instagram-f, .telefono-f {
-            @include flex(row, start , center );
+        .redes {
+            @include flex(column, space-around , center );
+            .instagram-f, .telefono-f {
+                @include flex(row, start , center );
+            }
         }
         p {
          font-size: map-get($font-sizes-p, m );

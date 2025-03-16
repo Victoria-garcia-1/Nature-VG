@@ -47,6 +47,18 @@ footer {
   align-items: center;
   gap: 20px;
 }
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .redes .instagram-f, footer .redes .telefono-f {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
 footer p {
   font-size: 16px;
   margin: 10px;
@@ -452,7 +464,13 @@ h3 {
 /*Media queries*/
 /*Index*/
 @media (max-width: 1000px) {
-  footer .instagram-f, footer .telefono-f {
+  footer .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .redes .instagram-f, footer .redes .telefono-f {
     display: flex;
     flex-direction: row;
     justify-content: start;
