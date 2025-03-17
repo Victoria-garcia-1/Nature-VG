@@ -427,11 +427,19 @@ h3 {
     .img-inicio-proyectos {
         padding: 20px 0;
     }
+    .servicios {
+        .img-servicios-inicio {
+            margin: 0;
+        }
+        p {
+            margin: 20px;
+        }
+    }
 /* Sobre nosotros */
     .historia, .mision, .roles-nature {
         @include flex(column, center, center);
         img {
-            @include medidas(100%, auto );
+            @include medidas(100%, auto);
         }
     }
     .organiza-nature {
