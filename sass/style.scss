@@ -190,15 +190,20 @@ h3 {
         @include flex(row, end, center );
     }
 }
-.btn-inicio {
+.button {
+    .btn-inicio {
     text-decoration: none;
     color: map-get($color, blanco );
     background-color: map-get($color, verde-claro);
     border-style: none;
-    padding: 5px;
+    padding: 7px;
     border-radius: 15px;
+    }
+    :hover {
+        background-color: map-get($color, verde-azulado-1);
+        transform: scale(1.05,1.05);
+    }
 }
-
 .servicios {
     @include flex(column, space-evenly, center);
     p {
