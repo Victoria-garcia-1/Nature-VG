@@ -94,7 +94,7 @@ h3 {
 .fondo-menu {
   background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
   background-size: cover;
-  background-repeat: no- no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
@@ -299,34 +299,49 @@ h3 {
   width: 100%;
   height: auto;
   max-height: fit-content;
-  padding-bottom: 20px;
 }
 
-.parques h2 {
+.fondo-proyectos {
+  background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+.fondo-proyectos h2 {
   padding: 40px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+.fondo-proyectos .parques {
+  background-color: #3D511F;
+  opacity: 0.9;
+}
+.fondo-proyectos .parques p {
+  padding: 30px 0px 10px;
+}
 
 .proyectos-img-p {
   padding: 50px 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   gap: 20px;
-  background-color: #3b513f;
   margin: 20px 0;
 }
 
 .render-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #7a9681;
+  width: 100%;
+  height: auto;
 }
 
 .img-planos {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -378,7 +393,7 @@ h3 {
 /*Contacto*/
 .fondo-contacto {
   background-size: cover;
-  background-repeat: no- no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
@@ -533,11 +548,11 @@ h3 {
     align-items: center;
     flex-direction: column;
   }
-  .parque img {
+  .parques img {
     width: 100%;
     height: auto;
   }
-  .parque h2 {
+  .parques h2 {
     padding: 20px;
   }
   /* Servicios */

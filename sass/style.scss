@@ -49,7 +49,7 @@ $font-p: "Raleway", serif;
 }
 @mixin background-img ($bgsize, $bgrepeat, $bgattachment, $bgposition, $bgheight) {
     background-size: $bgsize;
-    background-repeat: no-$bgrepeat;
+    background-repeat: $bgrepeat;
     background-attachment: $bgattachment;
     background-position: $bgposition;
     min-height: $bgheight;
@@ -70,7 +70,7 @@ body {
 nav {
     background-color: map-get($color, verde-oscuro-1 );
     .logo {
-        @include medidas (2rem, auto)
+        @include medidas (2rem, auto);
     }
     .style-toggler {
         border: none;
@@ -105,9 +105,8 @@ footer {
         @include flex(row, center , center );
         .instagram-f, .telefono-f {
             @include flex(row, start , center );
+        }
     }
-    }
-
     p {
         font-size: map-get($font-sizes-p, l );
         margin: 10px;
@@ -121,33 +120,33 @@ h1 {
     font-family: $font-titulo;
     font-size: map-get($font-sizes-h1, l );
     padding: 20px;
-    @include flex(row, center, center )
+    @include flex(row, center, center);
 }
 h2 {
     font-family: $font-titulo;
-    font-size: map-get($font-sizes-h2,l );
+    font-size: map-get($font-sizes-h2, l);
     padding: 20px 0;
 }
 h3 {
     font-family: $font-titulo;
-    font-size: map-get($font-sizes-h3,l );
+    font-size: map-get($font-sizes-h3, l);
 }
 /*Index*/
 .fondo-menu {
     background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
-    @include background-img(cover, no-repeat, fixed, center, 100vh )
+    @include background-img(cover, no-repeat, fixed, center, 100vh);
 }
 .bg-texto-index {
-    background-color: map-get($color, verde-oscuro-3 );
+    background-color: map-get($color, verde-oscuro-3);
     opacity: 0.7;
-    @include medidas(100%, auto );
+    @include medidas(100%, auto);
     border-top-right-radius: 36px;
     padding: 40px;
 }
 .nature {
-    @include flex(row-reverse, space-between , center );
+    @include flex(row-reverse, space-between, center);
     img {
-        @include medidas(50%, auto )
+        @include medidas(50%, auto);
     }
 }
 .nosotros-inicio {
@@ -172,7 +171,7 @@ h3 {
         padding: 30px;
         gap: 20px;
         img {
-            @include medidas(45%, auto )
+            @include medidas(45%, auto );
         }
     }
     .renders-texto-inicio {
@@ -201,7 +200,7 @@ h3 {
     }
     img {
         @include medidas(100%, auto);
-        filter: brightness(0.6)
+        filter: brightness(0.6);
     }
 }
 .servicios-inicio-texto, .contacto-inicio {
@@ -268,24 +267,35 @@ h3 {
 .carrusel-estilo-vic {
     @include medidas(100%, auto );
     max-height: fit-content;
-    padding-bottom: 20px;
 }
-.parques h2 {
-    padding: 40px 0;
-    @include flex(row, center, center);
+
+.fondo-proyectos {
+    background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
+    @include background-img(cover, no-repeat, fixed, center, 100vh);
+    h2 {
+        padding: 40px 0;
+        @include flex(row, center, center);
+    }
+    .parques {
+        background-color: map-get($color ,  verde-oscuro-1 );
+        opacity: 0.9;
+        p {
+            padding: 30px 0px 10px;
+        }
+    }
 }
 .proyectos-img-p {
     padding: 50px 30px;
-    @include flex(row, space-between, center );
     gap: 20px;
-    background-color: map-get($color, verde-azulado-2);
     margin: 20px 0;
 }
 .render-p {
+    @include flex(row, space-between, center );
     background-color: map-get($color, verde-claro);
+    @include medidas(100%, auto );
 }
 .img-planos {
-    @include medidas(50%, auto );
+    @include medidas(100%, auto );
 }
 /*Servicios*/
 .h2-servicios {
@@ -390,13 +400,13 @@ h3 {
 @media (max-width:1000px) {
     footer {
         .redes {
-            @include flex(column, space-around , center );
+            @include flex(column, space-around , center);
             .instagram-f, .telefono-f {
                 @include flex(row, start , center );
             }
         }
         p {
-         font-size: map-get($font-sizes-p, m );
+         font-size: map-get($font-sizes-p, m);
         }
     }
     .nav, .bg-texto-index{
@@ -421,7 +431,7 @@ h3 {
     .historia, .mision, .roles-nature {
         @include flex(column, center, center);
         img {
-            @include medidas(100%, auto )
+            @include medidas(100%, auto );
         }
     }
     .organiza-nature {
@@ -434,7 +444,7 @@ h3 {
         @include flex(column, center, center);
         flex-direction: column;
     }
-    .parque {
+    .parques {
         img {
             @include medidas(100%, auto);
         }
