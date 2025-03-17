@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*Animaciones*/
+:root {
+  --animate-duration: 1600ms;
+}
+
 body {
   font-family: "Raleway", serif;
   font-size: 24px;
