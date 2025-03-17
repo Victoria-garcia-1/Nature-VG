@@ -288,6 +288,9 @@ h3 {
   gap: 20px;
   font-size: 16px;
 }
+.organiza-nature .roles-nature :hover {
+  filter: brightness(1.1);
+}
 .organiza-nature .roles-nature .analistas, .organiza-nature .roles-nature .jardineros {
   width: 100%;
   background-color: #3b513f;
