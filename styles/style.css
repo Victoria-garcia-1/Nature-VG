@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Animaciones*/
 :root {
-  --animate-duration: 1600ms;
+  --animate-duration: 2500ms;
 }
 
 body {
@@ -159,6 +159,11 @@ h3 {
 .proyectos-inicio .img-inicio-proyectos img {
   width: 45%;
   height: auto;
+  filter: brightness(0.85);
+}
+.proyectos-inicio .img-inicio-proyectos :hover {
+  scale: 1.1;
+  filter: brightness(1);
 }
 .proyectos-inicio .renders-texto-inicio {
   display: flex;
@@ -180,7 +185,7 @@ h3 {
   background-color: #7a9681;
   border-style: none;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .servicios {

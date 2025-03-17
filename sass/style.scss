@@ -61,7 +61,7 @@ $font-p: "Raleway", serif;
 }
 /*Animaciones*/
 :root {
-    --animate-duration: 1600ms;
+    --animate-duration: 2500ms;
 }
 body {
     font-family: $font-p;
@@ -175,6 +175,11 @@ h3 {
         gap: 20px;
         img {
             @include medidas(45%, auto );
+            filter: brightness(0.85);
+        }
+        :hover {
+            scale: 1.1;
+            filter: brightness(1);
         }
     }
     .renders-texto-inicio {
@@ -191,8 +196,9 @@ h3 {
     background-color: map-get($color, verde-claro);
     border-style: none;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+
 .servicios {
     @include flex(column, space-evenly, center);
     p {
