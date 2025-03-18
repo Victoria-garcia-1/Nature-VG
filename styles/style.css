@@ -383,7 +383,7 @@ h3 {
   filter: brightness(1.8);
 }
 .cards-2 :hover img {
-  transform: scale(1.6);
+  transform: scale(1.2);
 }
 .cards-2 .card {
   background-color: #3b513f;
