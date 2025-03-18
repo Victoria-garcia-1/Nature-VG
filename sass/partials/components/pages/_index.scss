@@ -7,7 +7,7 @@
     opacity: 0.7;
     @include medidas(100%, auto);
     border-top-right-radius: 36px;
-    padding: 40px;
+    padding: 20px;
 }
 .nature {
     @include flex(row-reverse, space-between, center);
@@ -18,7 +18,7 @@
 .nosotros-inicio {
     @include flex(row, center, center );
     background-color: map-get($color, verde-azulado-2 );
-    padding: 30px;
+    padding: 20px;
     gap: 20px;
     opacity: 0.9;
     img {
@@ -29,7 +29,7 @@
     background-color: map-get($color, verde-oscuro-3 );
     opacity: 0.9;
     gap: 20px;
-    padding: 30px;
+    padding: 20px;
     .img-inicio-proyectos {
         @include flex(row, space-between, center );
         gap: 20px;
@@ -38,7 +38,7 @@
             filter: brightness(0.85);
         }
         :hover {
-            scale: 1.1;
+            scale: 1.05;
             filter: brightness(1);
         }
     }

@@ -151,7 +151,7 @@ body {
   width: 100%;
   height: auto;
   border-top-right-radius: 36px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .nature {
@@ -171,7 +171,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #3b513f;
-  padding: 30px;
+  padding: 20px;
   gap: 20px;
   opacity: 0.9;
 }
@@ -184,7 +184,7 @@ body {
   background-color: #2a3816;
   opacity: 0.9;
   gap: 20px;
-  padding: 30px;
+  padding: 20px;
 }
 .proyectos-inicio .img-inicio-proyectos {
   display: flex;
@@ -199,7 +199,7 @@ body {
   filter: brightness(0.85);
 }
 .proyectos-inicio .img-inicio-proyectos :hover {
-  scale: 1.1;
+  scale: 1.05;
   filter: brightness(1);
 }
 .proyectos-inicio .renders-texto-inicio {
@@ -680,10 +680,6 @@ body {
   /* Sobre nosotros */
   .historia, .mision, .roles-nature {
     padding: 30px;
-  }
-  /* Servicios  */
-  .servicios img {
-    margin: 20px 0;
   }
   /* Contacto */
   .bg-form .estilo-input {
