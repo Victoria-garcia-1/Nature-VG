@@ -485,6 +485,7 @@ h3 {
         @include flex(column, center, center);
         margin: 20px;
     }
+
  /* Contacto */
     .formulario {
         @include flex(column, center, center);
@@ -530,6 +531,9 @@ h3 {
         }
         h2 {
             padding: 20px;
+        }
+        .h2-servicios {
+            padding: 20px 0 0;
         }
     }
 /*Contacto*/

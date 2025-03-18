@@ -638,6 +638,9 @@ h3 {
   .servicios h2 {
     padding: 20px;
   }
+  .servicios .h2-servicios {
+    padding: 20px 0 0;
+  }
   /*Contacto*/
   .bg-form {
     padding: 10px;
