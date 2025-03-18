@@ -56,6 +56,7 @@
     .parques {
         img {
             @include medidas(100%, auto);
+            padding-bottom: 20px;
         }
         h2 {
             padding: 20px;
@@ -165,10 +166,10 @@
                 font-size: map-get($font-sizes-h3, m);  
             }
         }
-    /* Sobre nosotros */
-        .historia, .mision, .roles-nature {
-            padding: 30px;
-        }
+/* Sobre nosotros */
+    .historia, .mision, .roles-nature {
+        padding: 30px;
+    }
 /* Contacto */
     .bg-form {
         .estilo-input {

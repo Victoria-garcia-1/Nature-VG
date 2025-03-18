@@ -573,6 +573,7 @@ body {
   .parques img {
     width: 100%;
     height: auto;
+    padding-bottom: 20px;
   }
   .parques h2 {
     padding: 20px;
