@@ -1,4 +1,4 @@
-/*Index*/
+//Index
 @media (max-width:1000px) {
     footer {
         .redes {
@@ -28,10 +28,7 @@
     }
     proyectos-inicio {
         .renders-texto-inicio {
-            @include flex(column, center, center);
-        }
-        .img-inicio-proyectos {
-            padding: 0;
+            @include flex(column, space-between, center);
         }
     }
     .servicios {
@@ -42,7 +39,7 @@
             margin: 20px;
         }
     }
-/* Sobre nosotros */
+// Sobre nosotros 
     .historia, .mision, .roles-nature {
         @include flex(column, center, center);
         img {
@@ -54,7 +51,7 @@
             @include flex(column, center, center );
         }
     }
-/* Proyectos */
+//Proyectos
     .proyectos-img-p {
         @include flex(column, center, center);
         flex-direction: column;
@@ -67,13 +64,12 @@
             padding: 20px;
         }
     }
- /* Servicios */
+//Servicios
     .cards-2 {
         @include flex(column, center, center);
         margin: 20px;
     }
-
- /* Contacto */
+//Contacto
     .formulario {
         @include flex(column, center, center);
         padding: 10px 30px;
@@ -103,15 +99,15 @@
             font-size: map-get($font-sizes-h3, s);  
         }
     }
-/* Index */
+//Index
     .info-paginas p {
         padding: 0;
     }
-/* Sobre nosotros */
+//Sobre nosotros
     .historia, .mision, .roles-nature {
         padding: 20px;
     }
-/* Servicios  */
+//Servicios
     .servicios{
         img {
             margin: 20px 0;
@@ -123,7 +119,7 @@
             padding: 20px 0 0;
         }
     }
-/*Contacto*/
+//Contacto
     .bg-form {
         padding: 10px;
         margin: 10px;
@@ -167,14 +163,9 @@
         img {
             margin: 20px 0;
         }
-        h2 {
-            padding: 20px;
-        }
     }
 /* Contacto */
     .bg-form {
-        padding: 30px;
-        margin: 20px;
         .estilo-input {
             font-size: map-get($font-sizes-p, l);
         }

@@ -95,6 +95,7 @@ body {
   background-color: #48634e;
   color: #FFFFFF;
   min-height: 100vh;
+  text-align: justify;
 }
 
 :root {
@@ -499,7 +500,6 @@ body {
   padding: 20px;
 }
 
-/*Index*/
 @media (max-width: 1000px) {
   footer .redes {
     display: flex;
@@ -545,11 +545,8 @@ body {
   proyectos-inicio .renders-texto-inicio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-  }
-  proyectos-inicio .img-inicio-proyectos {
-    padding: 0;
   }
   .servicios .img-servicios-inicio {
     margin: 0;
@@ -557,7 +554,6 @@ body {
   .servicios p {
     margin: 20px;
   }
-  /* Sobre nosotros */
   .historia, .mision, .roles-nature {
     display: flex;
     flex-direction: column;
@@ -574,7 +570,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-  /* Proyectos */
   .proyectos-img-p {
     display: flex;
     flex-direction: column;
@@ -589,7 +584,6 @@ body {
   .parques h2 {
     padding: 20px;
   }
-  /* Servicios */
   .cards-2 {
     display: flex;
     flex-direction: column;
@@ -597,7 +591,6 @@ body {
     align-items: center;
     margin: 20px;
   }
-  /* Contacto */
   .formulario {
     display: flex;
     flex-direction: column;
@@ -630,15 +623,12 @@ body {
   main h3 {
     font-size: 16px;
   }
-  /* Index */
   .info-paginas p {
     padding: 0;
   }
-  /* Sobre nosotros */
   .historia, .mision, .roles-nature {
     padding: 20px;
   }
-  /* Servicios  */
   .servicios img {
     margin: 20px 0;
   }
@@ -648,7 +638,6 @@ body {
   .servicios .h2-servicios {
     padding: 20px 0 0;
   }
-  /*Contacto*/
   .bg-form {
     padding: 10px;
     margin: 10px;
@@ -692,14 +681,7 @@ body {
   .servicios img {
     margin: 20px 0;
   }
-  .servicios h2 {
-    padding: 20px;
-  }
   /* Contacto */
-  .bg-form {
-    padding: 30px;
-    margin: 20px;
-  }
   .bg-form .estilo-input {
     font-size: 16px;
   }
