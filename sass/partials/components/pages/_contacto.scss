@@ -2,14 +2,10 @@
     @include background-img(cover, no-repeat, fixed, center, 100vh);
     background-image: url(../assets/imagenes/Fondo-contacto.png);
 }
-.titulo-p-form, .faq {
-    @include flex(column, center, center);
-}
 .titulo-p-form {
+    @include flex(column, center, center);
     @include medidas(60%, auto);
-}
-.p-form {
-    text-align: center;
+    text-align: center
 }
 .formulario {
     @include flex(row-reverse, space-around, center);
@@ -27,8 +23,8 @@
         font-size: map-get($font-sizes-p, xl);
     }
 }
-
 .faq {
+   @include flex(column, center, center);
    background-color: map-get($color, verde-azulado-2);
    opacity: 0.9;
    margin: 40px;
@@ -45,4 +41,4 @@
 .faq-h2 {
     @include flex(row, center, center);
     padding: 20px;
-   }
+}

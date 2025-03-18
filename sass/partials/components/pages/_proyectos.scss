@@ -1,8 +1,6 @@
 .carrusel-estilo-vic {
     @include medidas(100%, auto );
-    max-height: fit-content;
 }
-
 .fondo-proyectos {
     background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
     @include background-img(cover, no-repeat, fixed, center, 100vh);
@@ -11,7 +9,7 @@
         @include flex(row, center, center);
     }
     .parques {
-        background-color: map-get($color ,  verde-oscuro-1 );
+        background-color: map-get($color, verde-oscuro-1);
         opacity: 0.9;
         p {
             padding: 30px 0px 10px;

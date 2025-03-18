@@ -23,8 +23,6 @@
     opacity: 0.9;
     img {
         @include medidas(50%, auto );
-        border-style: solid;
-        border-color: #2a3816;
     }
 }
 .proyectos-inicio {
@@ -47,7 +45,7 @@
     }
     .renders-texto-inicio {
         @include flex(row, center, center );
-        gap: 20px;
+        gap: 30px;
     }
     button {
         @include flex(row, end, center );
