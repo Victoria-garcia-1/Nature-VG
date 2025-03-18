@@ -1,0 +1,21 @@
+footer {
+    background-color: map-get($color, verde-oscuro-1 );
+    @include medidas (100%, auto);
+    padding: 8px 30px;
+    @include flex(row, space-between , center);
+    gap: 20px;
+    .redes {
+        @include flex(row, center , center );
+        .instagram-f, .telefono-f {
+            @include flex(row, start , center );
+        }
+    }
+    p {
+        font-size: map-get($font-sizes-p, l );
+        margin: 10px;
+    }
+    img {
+        @include medidas(30px, auto);
+        margin: 10px;
+    }
+}

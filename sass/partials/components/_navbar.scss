@@ -1,0 +1,28 @@
+nav {
+    background-color: map-get($color, verde-oscuro-1 );
+    .logo {
+        @include medidas (2rem, auto);
+    }
+    .style-toggler {
+        border: none;
+        box-shadow: none;
+        .menu-svg-vic {
+            @include medidas (1.5rem, auto);
+        }               
+    }
+    ul {
+        font-size: map-get($font-sizes-p, l );
+        padding: 10px 20px;
+        li {
+            .nav-link {
+                color: map-get($color, blanco );
+                &:hover {
+                    color: map-get($color, verde-hover  );
+                }
+            }
+            .active-vic {
+                color: map-get($color , verde-claro );
+            }
+        }
+    }
+}

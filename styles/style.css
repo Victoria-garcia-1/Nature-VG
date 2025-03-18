@@ -6,19 +6,6 @@
   box-sizing: border-box;
 }
 
-/*Animaciones*/
-:root {
-  --animate-duration: 2500ms;
-}
-
-body {
-  font-family: "Raleway", serif;
-  font-size: 24px;
-  background-color: #48634e;
-  color: #FFFFFF;
-  min-height: 100vh;
-}
-
 nav {
   background-color: #3D511F;
 }
@@ -102,6 +89,15 @@ h3 {
   font-size: 28px;
 }
 
+body {
+  font-family: "Raleway", serif;
+  font-size: 24px;
+  background-color: #48634e;
+  color: #FFFFFF;
+  min-height: 100vh;
+}
+
+/*Animaciones*/
 /*Index*/
 .fondo-menu {
   background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);

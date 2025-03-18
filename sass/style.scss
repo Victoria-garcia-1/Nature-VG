@@ -5,81 +5,12 @@
 @import 'partials/utilities/variables';
 @import 'partials/utilities/maps';
 @import 'partials/utilities/mixins';
+//Comoponents
+@import 'partials/components/navbar';
+@import 'partials/components/footer';
+@import 'partials/components/titulos';
+@import 'partials/components/body';
 /*Animaciones*/
-:root {
-    --animate-duration: 2500ms;
-}
-body {
-    font-family: $font-p;
-    font-size: map-get($font-sizes-p, xxl );
-    background-color: map-get($color, verde-azulado-1 );
-    color: map-get($color, blanco );
-    min-height: 100vh;
-}
-nav {
-    background-color: map-get($color, verde-oscuro-1 );
-    .logo {
-        @include medidas (2rem, auto);
-    }
-    .style-toggler {
-        border: none;
-        box-shadow: none;
-        .menu-svg-vic {
-            @include medidas (1.5rem, auto);
-        }               
-    }
-    ul {
-        font-size: map-get($font-sizes-p, l );
-        padding: 10px 20px;
-        li {
-            .nav-link {
-                color: map-get($color, blanco );
-                &:hover {
-                    color: map-get($color, verde-hover  );
-                }
-            }
-            .active-vic {
-                color: map-get($color , verde-claro );
-            }
-        }
-    }
-}
-footer {
-    background-color: map-get($color, verde-oscuro-1 );
-    @include medidas (100%, auto);
-    padding: 8px 30px;
-    @include flex(row, space-between , center);
-    gap: 20px;
-    .redes {
-        @include flex(row, center , center );
-        .instagram-f, .telefono-f {
-            @include flex(row, start , center );
-        }
-    }
-    p {
-        font-size: map-get($font-sizes-p, l );
-        margin: 10px;
-    }
-    img {
-        @include medidas(30px, auto);
-        margin: 10px;
-    }
-}
-h1 {
-    font-family: $font-titulo;
-    font-size: map-get($font-sizes-h1, l );
-    padding: 20px;
-    @include flex(row, center, center);
-}
-h2 {
-    font-family: $font-titulo;
-    font-size: map-get($font-sizes-h2, l);
-    padding: 20px 0;
-}
-h3 {
-    font-family: $font-titulo;
-    font-size: map-get($font-sizes-h3, l);
-}
 /*Index*/
 .fondo-menu {
     background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
