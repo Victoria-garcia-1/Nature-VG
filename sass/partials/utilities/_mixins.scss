@@ -1,0 +1,22 @@
+@mixin flex ($direction,$justify,$align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin medidas ($width,$height) {
+    width: $width;
+    height: $height;
+}
+@mixin background-img ($bgsize, $bgrepeat, $bgattachment, $bgposition, $bgheight) {
+    background-size: $bgsize;
+    background-repeat: $bgrepeat;
+    background-attachment: $bgattachment;
+    background-position: $bgposition;
+    min-height: $bgheight;
+}
+@mixin card ($width, $bgcolor, $padding) {
+    width: $width;
+    background-color: $bgcolor;
+    padding: $padding;
+}

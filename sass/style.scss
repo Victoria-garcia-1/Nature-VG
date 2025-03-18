@@ -1,64 +1,10 @@
-
-$color: (
-    verde-oscuro-3: #2a3816,
-    verde-oscuro-1: #3D511F,
-    verde-azulado-2: #3b513f,
-    verde-azulado-1: #48634e,
-    verde-claro: #7a9681,
-    verde-hover: #C2E6C9,
-    verde-amarillento: #BDC397,
-    blanco: #FFFFFF
-
-);
-$font-sizes-p: (
-    xs: 10px,
-    s: 12px,
-    m: 13px,
-    l: 16px,
-    xl: 20px,
-    xxl: 24px
-);
-$font-sizes-h1: (
-    s: 24px,
-    m: 44px,
-    l: 64px
-);
-$font-sizes-h2: (
-    s: 20px,
-    m: 34px,
-    l: 36px
-);
-$font-sizes-h3: (
-    s: 16px,
-    m: 26px,
-    l: 28px
-);
-
-$font-titulo: "Abril Fatface", serif;
-$font-p: "Raleway", serif;
-
-@mixin flex ($direction,$justify,$align) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: $align;
-}
-@mixin medidas ($width,$height) {
-    width: $width;
-    height: $height;
-}
-@mixin background-img ($bgsize, $bgrepeat, $bgattachment, $bgposition, $bgheight) {
-    background-size: $bgsize;
-    background-repeat: $bgrepeat;
-    background-attachment: $bgattachment;
-    background-position: $bgposition;
-    min-height: $bgheight;
-}
-@mixin card ($width, $bgcolor, $padding) {
-    width: $width;
-    background-color: $bgcolor;
-    padding: $padding;
-}
+//Base
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+//Utilities
+@import 'partials/utilities/variables';
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
 /*Animaciones*/
 :root {
     --animate-duration: 2500ms;
