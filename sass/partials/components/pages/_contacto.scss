@@ -1,0 +1,61 @@
+.fondo-contacto {
+    @include background-img(cover, no-repeat, fixed, center, 100vh);
+    background-image: url(../assets/imagenes/Fondo-contacto.png);
+}
+.titulo-p-form, .faq {
+    @include flex(column, center, center);
+}
+.titulo-p-form {
+    @include medidas(60%, auto);
+}
+.p-form {
+    text-align: center;
+}
+.formulario {
+    @include flex(row-reverse, space-around, center);
+    padding: 20px;
+    .bg-form {
+        background-color: map-get($color, verde-oscuro-1);
+        opacity: 0.9;
+        padding: 20px;
+        margin: 40px;
+        @include medidas(50%, auto);
+        border-radius: 31px;
+    }
+    .input-label {
+        padding: 10px;
+        font-size: map-get($font-sizes-p, xl);
+    }
+    .submit-button {
+        padding: 10px;
+        @include flex(row, end, center);
+        .btn-estilo {
+            background-color: map-get($color, verde-amarillento);
+            border: none;
+        }
+        :hover {
+            opacity: 0.9;
+            background-color: map-get($color, verde-oscuro-3);
+            transform: scale(1.05,1.05);
+        }
+    }
+}
+
+.faq {
+   background-color: map-get($color, verde-azulado-2);
+   opacity: 0.9;
+   margin: 40px;
+   border-radius: 20px;
+   .faq-link {
+    text-decoration: none;
+    color: map-get($color, blanco);
+    padding: 20px;
+    }
+    .texto-faq {
+        padding: 20px;
+    }
+}
+.faq-h2 {
+    @include flex(row, center, center);
+    padding: 20px;
+   }

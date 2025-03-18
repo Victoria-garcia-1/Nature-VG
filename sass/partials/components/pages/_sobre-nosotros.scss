@@ -1,0 +1,45 @@
+.titulo-sobre-nosotros {
+    background-color: #BDC397;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.historia, .mision {
+    @include flex(row, space-evenly, center);
+    padding: 20px;
+    gap: 20px;
+    img {
+        @include medidas(50%, auto);
+        @include flex(row, center, center );
+    }
+}
+.historia {
+    @include flex(row-reverse, space-evenly, center );
+    background-color: #7a9681;
+}
+.organiza-nature {
+    padding: 40px 0px;
+    h2 {
+        @include flex(row, center, center);
+        padding: 20px;
+    }
+    .roles-nature {
+        :hover {
+            filter: brightness(1.1);
+        }
+        @include flex(row, space-evenly, center);
+        padding: 40px 20px;
+        gap: 20px;
+        font-size: map-get($font-sizes-p, l);
+        .analistas, .jardineros {
+            @include card(100%, map-get($color, verde-azulado-2), 20px );
+        }
+        .diseñadores {
+            @include card(100%,  map-get($color, verde-claro), 20px )
+        }
+    }
+}
+.mision {
+    @include flex(row, center, center );
+    background-color: map-get($color, verde-azulado-2);
+    margin-bottom: 40px;
+}
