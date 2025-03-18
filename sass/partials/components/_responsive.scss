@@ -20,14 +20,19 @@
             @include medidas(100%, auto );
         }
     }
-    .nosotros-inicio, .renders-texto-inicio {
+    .nosotros-inicio {
         @include flex(column, center, center);
+        img {
+            @include medidas(100%, auto);
+        }
     }
-    .nosotros-inicio img {
-        @include medidas(100%, auto);
-    }
-    .img-inicio-proyectos {
-        padding: 20px 0;
+    proyectos-inicio {
+        .renders-texto-inicio {
+            @include flex(column, center, center);
+        }
+        .img-inicio-proyectos {
+            padding: 0;
+        }
     }
     .servicios {
         .img-servicios-inicio {

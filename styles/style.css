@@ -114,6 +114,23 @@ body {
   transform: scale(1.05, 1.05);
 }
 
+.submit-button {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.submit-button .btn-estilo {
+  background-color: #BDC397;
+  border: none;
+}
+.submit-button :hover {
+  opacity: 0.9;
+  background-color: #2a3816;
+  transform: scale(1.05, 1.05);
+}
+
 .fondo-menu {
   background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
   background-size: cover;
@@ -458,22 +475,6 @@ body {
   padding: 10px;
   font-size: 20px;
 }
-.formulario .submit-button {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: center;
-}
-.formulario .submit-button .btn-estilo {
-  background-color: #BDC397;
-  border: none;
-}
-.formulario .submit-button :hover {
-  opacity: 0.9;
-  background-color: #2a3816;
-  transform: scale(1.05, 1.05);
-}
 
 .faq {
   background-color: #3b513f;
@@ -531,7 +532,7 @@ body {
     width: 100%;
     height: auto;
   }
-  .nosotros-inicio, .renders-texto-inicio {
+  .nosotros-inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -541,8 +542,14 @@ body {
     width: 100%;
     height: auto;
   }
-  .img-inicio-proyectos {
-    padding: 20px 0;
+  proyectos-inicio .renders-texto-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  proyectos-inicio .img-inicio-proyectos {
+    padding: 0;
   }
   .servicios .img-servicios-inicio {
     margin: 0;

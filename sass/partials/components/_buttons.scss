@@ -1,3 +1,4 @@
+//Button index
 .button {
     .btn-inicio {
     text-decoration: none;
@@ -9,6 +10,20 @@
     }
     :hover {
         background-color: map-get($color, verde-azulado-1);
+        transform: scale(1.05,1.05);
+    }
+}
+//Button contacto
+.submit-button {
+    padding: 10px;
+    @include flex(row, end, center);
+    .btn-estilo {
+        background-color: map-get($color, verde-amarillento);
+        border: none;
+    }
+    :hover {
+        opacity: 0.9;
+        background-color: map-get($color, verde-oscuro-3);
         transform: scale(1.05,1.05);
     }
 }
