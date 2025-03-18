@@ -1,5 +1,5 @@
 .titulo-sobre-nosotros {
-    background-color: #BDC397;
+    background-color: map-get($color, verde-amarillento);
     padding: 20px 0;
     margin-bottom: 50px;
 }
@@ -14,7 +14,7 @@
 }
 .historia {
     @include flex(row-reverse, space-evenly, center );
-    background-color: #7a9681;
+    background-color: map-get($color, verde-claro);
 }
 .organiza-nature {
     padding: 40px 0px;

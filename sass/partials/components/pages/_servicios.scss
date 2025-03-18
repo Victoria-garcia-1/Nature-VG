@@ -14,7 +14,7 @@
     }
     .card {
         background-color: map-get($color, verde-azulado-2 );
-        color: white;
+        color: map-get($color, blanco );
         padding: 20px;
         margin: 20px;
         @include medidas(100%, auto);

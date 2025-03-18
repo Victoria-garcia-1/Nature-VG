@@ -17,7 +17,7 @@
 }
 .nosotros-inicio {
     @include flex(row, center, center );
-    background-color: #3b513f;
+    background-color: map-get($color, verde-azulado-2 );
     padding: 30px;
     gap: 20px;
     opacity: 0.9;
@@ -26,7 +26,7 @@
     }
 }
 .proyectos-inicio {
-    background-color: #2a3816;
+    background-color: map-get($color, verde-oscuro-3 );
     opacity: 0.9;
     gap: 20px;
     padding: 30px;
@@ -68,7 +68,7 @@
     @include flex(column, center, center);
 }
 .contacto-inicio {
-    background-color: #3b513f;
+    background-color: map-get($color, verde-azulado-2 );
     padding: 30px;
     opacity: 0.9;
     .redes-contacto-inicio {
