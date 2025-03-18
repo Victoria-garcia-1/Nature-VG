@@ -380,7 +380,7 @@ h3 {
   margin: 35px 0;
 }
 .cards-2 :hover {
-  filter: brightness(1.8);
+  filter: brightness(1.6);
 }
 .cards-2 :hover img {
   transform: scale(1.2);
