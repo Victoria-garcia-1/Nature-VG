@@ -2,6 +2,9 @@ nav {
     background-color: map-get($color, verde-oscuro-1 );
     .logo {
         @include medidas (2rem, auto);
+        :hover {
+            scale: 1.1;
+        }
     }
     .style-toggler {
         border: none;

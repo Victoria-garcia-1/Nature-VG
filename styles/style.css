@@ -13,6 +13,9 @@ nav .logo {
   width: 2rem;
   height: auto;
 }
+nav .logo :hover {
+  scale: 1.1;
+}
 nav .style-toggler {
   border: none;
   box-shadow: none;
@@ -653,7 +656,7 @@ body {
     margin: 20px 0;
   }
   .faq .faq-link {
-    padding: 10px;
+    padding: 0;
   }
 }
 @media (min-width: 611px) and (max-width: 1000px) {
