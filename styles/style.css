@@ -501,12 +501,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
   }
   footer .redes .instagram-f, footer .redes .telefono-f {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
   }
   footer p {

@@ -2,9 +2,9 @@
 @media (max-width:1000px) {
     footer {
         .redes {
-            @include flex(column, space-around , center);
+            @include flex(column, space-around , flex-start);
             .instagram-f, .telefono-f {
-                @include flex(row, start , center );
+                @include flex(row, center, center);
             }
         }
         p {
