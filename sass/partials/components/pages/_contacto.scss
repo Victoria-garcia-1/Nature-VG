@@ -29,16 +29,13 @@
    opacity: 0.9;
    margin: 40px;
    border-radius: 20px;
+   padding: 20px;
    .faq-link {
     text-decoration: none;
     color: map-get($color, blanco);
     padding: 20px;
     }
-    .texto-faq {
-        padding: 20px;
-    }
 }
 .faq-h2 {
     @include flex(row, center, center);
-    padding: 20px;
 }

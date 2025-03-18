@@ -35,9 +35,6 @@
         .img-servicios-inicio {
             margin: 0;
         }
-        p {
-            margin: 20px;
-        }
     }
 // Sobre nosotros 
     .historia, .mision, .roles-nature {
@@ -119,6 +116,21 @@
             padding: 20px 0 0;
         }
     }
+//Proyectos
+.parques {
+    .proyectos-img-p {
+        padding: 0 10px;
+        gap: 0;
+        margin: 0;
+    }
+    h2 {
+        margin: 0;
+    }
+}
+.h1-nuestros-proyectos {
+    padding: 0;
+}
+
 //Contacto
     .bg-form {
         padding: 10px;

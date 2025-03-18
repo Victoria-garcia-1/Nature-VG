@@ -81,7 +81,7 @@ h1 {
 h2 {
   font-family: "Abril Fatface", serif;
   font-size: 36px;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 h3 {
@@ -187,7 +187,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
   gap: 20px;
 }
 .proyectos-inicio .img-inicio-proyectos img {
@@ -205,6 +204,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding-top: 20px;
+}
+.proyectos-inicio .renders-texto-inicio p {
+  margin: 0;
 }
 .proyectos-inicio button {
   display: flex;
@@ -474,13 +477,11 @@ body {
   opacity: 0.9;
   margin: 40px;
   border-radius: 20px;
+  padding: 20px;
 }
 .faq .faq-link {
   text-decoration: none;
   color: #FFFFFF;
-  padding: 20px;
-}
-.faq .texto-faq {
   padding: 20px;
 }
 
@@ -489,7 +490,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -542,9 +542,6 @@ body {
   }
   .servicios .img-servicios-inicio {
     margin: 0;
-  }
-  .servicios p {
-    margin: 20px;
   }
   .historia, .mision, .roles-nature {
     display: flex;
@@ -629,6 +626,17 @@ body {
   }
   .servicios .h2-servicios {
     padding: 20px 0 0;
+  }
+  .parques .proyectos-img-p {
+    padding: 0 10px;
+    gap: 0;
+    margin: 0;
+  }
+  .parques h2 {
+    margin: 0;
+  }
+  .h1-nuestros-proyectos {
+    padding: 0;
   }
   .bg-form {
     padding: 10px;

@@ -32,7 +32,6 @@
     padding: 30px;
     .img-inicio-proyectos {
         @include flex(row, space-between, center );
-        padding: 30px;
         gap: 20px;
         img {
             @include medidas(45%, auto );
@@ -46,6 +45,10 @@
     .renders-texto-inicio {
         @include flex(row, center, center );
         gap: 30px;
+        padding-top: 20px;
+        p {
+            margin: 0;
+        }
     }
     button {
         @include flex(row, end, center );
