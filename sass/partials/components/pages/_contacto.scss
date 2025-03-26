@@ -1,6 +1,6 @@
 .fondo-contacto {
     @include background-img(cover, no-repeat, fixed, center, 100vh);
-    background-image: url(../assets/imagenes/Fondo-contacto.png);
+    background-image: url(../assets/imagenes/Fondo-contacto.webp);
 }
 .titulo-p-form {
     @include flex(column, center, center);
@@ -34,7 +34,7 @@
     text-decoration: none;
     color: map-get($color, blanco);
     padding: 20px;
-    }
+   }
 }
 .faq-h2 {
     @include flex(row, center, center);

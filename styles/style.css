@@ -137,7 +137,7 @@ body {
 }
 
 .fondo-menu {
-  background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
+  background-image: url(../assets/imagenes/nuevo-fondo-index.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -438,7 +438,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   min-height: 100vh;
-  background-image: url(../assets/imagenes/Fondo-contacto.png);
+  background-image: url(../assets/imagenes/Fondo-contacto.webp);
 }
 
 .titulo-p-form {
