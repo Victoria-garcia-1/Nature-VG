@@ -18,7 +18,7 @@
     padding: 10px;
     @include flex(row, end, center);
     .btn-estilo {
-        background-color: map-get($color, verde-amarillento);
+        background-color:map-get($color, verde-amarillento);
         border: none;
     }
     :hover {
