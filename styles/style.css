@@ -127,7 +127,7 @@ body {
   align-items: center;
 }
 .submit-button .btn-estilo {
-  background-color: #BDC397;
+  background-color: #8a9645;
   border: none;
 }
 .submit-button :hover {
@@ -266,7 +266,7 @@ body {
 }
 
 .titulo-sobre-nosotros {
-  background-color: #BDC397;
+  background-color: #8a9645;
   padding: 20px 0;
   margin-bottom: 50px;
 }
@@ -343,6 +343,11 @@ body {
   height: auto;
 }
 
+.h1-carrusel {
+  background-color: #8a9645;
+  margin: 0;
+}
+
 .fondo-proyectos {
   background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
   background-size: cover;
@@ -385,6 +390,10 @@ body {
 .img-planos {
   width: 100%;
   height: auto;
+}
+
+.text-align-servicios {
+  text-align: center;
 }
 
 .h2-servicios {

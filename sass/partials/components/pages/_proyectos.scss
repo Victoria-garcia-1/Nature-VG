@@ -1,6 +1,10 @@
 .carrusel-estilo-vic {
     @include medidas(100%, auto );
 }
+.h1-carrusel {
+    background-color: map-get($color, verde-amarillento );
+    margin: 0;
+}
 .fondo-proyectos {
     background-image: url(../assets/imagenes/nuevo-fondo-index.jpg);
     @include background-img(cover, no-repeat, fixed, center, 100vh);
